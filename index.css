@@ -1,0 +1,55 @@
+:root {
+	--start-color: black;
+}
+
+h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 60px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#hot1 {
+	--end-color: #FFC101;
+	animation: changeColor 1000ms 1000ms ease-in forwards;
+}
+
+#hot2 {
+	--end-color: rgba(255, 86, 7, .9);
+	animation: changeColor 1000ms 2000ms ease-in forwards;
+}
+
+#hot3 {
+	--end-color: #F90500;
+	animation: changeColor 1000ms 3000ms ease-in forwards;
+}
+
+@keyframes changeColor {
+	from {
+		color: var(--start-color);
+	}
+
+	to {
+		color: var(--end-color);
+	}
+}
+
+#hot4 {
+	animation: flames 15000ms 5000ms linear forwards;
+}
+
+@keyframes flames {
+	0% {
+		background-image: url(./flames.jpg);
+		background-size: contain;
+		background-position: 0 0;
+	}
+
+	100% {
+		background-position: 100% 0;
+	}
+}
