@@ -19,3 +19,7 @@ video {
 	left: 0;
 	right: 0;
 }
+
+video:focus {
+	outline: none;
+}

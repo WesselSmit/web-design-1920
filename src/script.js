@@ -1,20 +1,21 @@
+//Dev function : remove before production
+document.querySelector('video').volume = 0.1
+
+
 //Variables
 const video = document.querySelector("video")
 
 
-//Get video info
-document.onkeypress = e => {
-	e = e || window.event
-	const pressedKey = e.code
-	const infoKey = "KeyF"
 
-	if (pressedKey === infoKey) {
-		console.log("current video time: ", getCurrentTime())
-		console.log("video playing: ", isVideoPlaying())
-		console.log("video aspect ratio: ", getVideoAspectRatio())
-		console.log("---------------------------------")
-	}
-}
+//Update if video is playing
+video.addEventListener('timeupdate', e => {
+	console.log("update", e.target.currentTime)
+})
+
+
+
+
+
 
 
 
@@ -39,6 +40,10 @@ function getVideoAspectRatio() {
 	const aspectRatio = (width / 80) + "/" + (height / 80)
 	return aspectRatio
 }
+
+
+
+
 
 
 
