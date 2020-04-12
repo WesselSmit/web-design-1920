@@ -1,68 +1,35 @@
 body {
-	margin: 0;
+	margin: 25px 0 0 0;
 	background-color: black;
 }
 
 video {
-	background: black;
-	width: 100vw;
-	/* Make video fill the screen whilst keeping aspect ration intact: 
-	height:width ratio = 9/16 = .5625  */
-	height: 56.25vw;
-	max-height: 100vh;
-	/* 16/9 = 1.778 */
-	max-width: 177.78vh;
-	position: relative;
-	margin: auto;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	display: block;
+	margin: auto auto 20px auto;
 }
 
 video:focus {
 	outline: none;
 }
 
-
-
 #captions-container {
-	background-color: rgba(0, 0, 0, 0.5);
 	height: fit-content;
 	width: fit-content;
 	max-width: 70vw;
-	cursor: move;
-	position: absolute;
-	bottom: 30px;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, -50%);
+	margin: auto;
 }
 
-#captions-container.fullSize {
-	width: 70vw;
-	height: 100px;
-	background-color: black;
-}
-
-#captions:not(:empty) {
+#captions {
 	color: white;
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
-	opacity: 1;
 	font-size: 24px;
 	margin: 0;
-	padding: 5px 10px;
-	/* Prevent element from showing more than 3 sentences */
-	line-height: 30px;
-	max-height: 90px;
-	overflow: hidden;
 }
 
 
 
-
+/* TODO: dit is een test en kan weggehaald worden */
 /* Animation test */
 [captions-id=CC2] {
 	animation: test 5000ms linear;
