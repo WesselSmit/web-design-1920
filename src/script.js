@@ -5,12 +5,13 @@ let CC
 
 
 
-//Set volume to last known volume (if available)
+//Set volume to last known volume (if available in localStorage)
 const volumePref = localStorage.getItem("volumePref")
 if (volumePref) {
 	video.volume = volumePref
 }
 
+//Update volumePref in localStorage
 video.addEventListener('volumechange', e => {
 	const volume = e.target.volume
 	localStorage.setItem("volumePref", volume)
@@ -32,33 +33,71 @@ fetch('./media/CC/feelSomething.json')
 
 
 
-
+//Update the video
 function addVideoController() {
-
-	//Update the video
 	video.addEventListener('timeupdate', e => {
-		const videoTime = e.target.currentTime //This triggers approx. 4x each second
+		const videoTime = e.target.currentTime //This triggers approx. 4x every second
 
 
 		const matchingCC = findCC(videoTime)
-		// console.log("matching CC: ", matchingCC)
 
-		// if ("captions are new") { //Todo: check of captions nieuw zijn of al zichtbaar waren
-		updateVideoCC(matchingCC)
-		// }
+		if (matchingCC != null) {
+			if (CCisNew(matchingCC)) {
+				consoleLogUpdate(matchingCC)
+
+				updateVideoCC(matchingCC)
+			}
+		} else {
+			resetCC()
+		}
 	})
 }
 
 
 
-
+//Helper functions
 function findCC(time) {
-	return CC.filter(cc => cc.startTime < time && time < cc.endTime)
+	const matchingCaptions = CC.find(cc => cc.startTime < time && time < cc.endTime)
+	return matchingCaptions ? matchingCaptions : null
+}
+
+
+
+function CCisNew(captions) {
+	const currentCC = videoCC.getAttribute("captions-id")
+	const newCC = captions.id
+	return currentCC != newCC
+}
+
+
+
+function consoleLogUpdate(matchingCC) {
+	console.log("updating CC: ", [{
+		"old-CC: ": videoCC.textContent
+	}, {
+		"new-CC": matchingCC.text
+	}])
 }
 
 
 
 function updateVideoCC(captions) {
-	videoCC.innerHTML = captions
+	videoCC.innerHTML = captions.text
+	videoCC.setAttribute("captions-id", captions.id)
+
 	//todo: insert captions into DOM
+}
+
+
+
+function resetCC() {
+	let currentText = videoCC.textContent
+	const currentCaptionId = videoCC.getAttribute("captions-id")
+
+	if (currentText != "" && currentCaptionId != "") {
+		currentText = ""
+		videoCC.setAttribute("captions-id", "")
+
+		console.log("CC was reset")
+	}
 }
