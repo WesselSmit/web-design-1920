@@ -1,0 +1,11 @@
+{
+	"CC": [{
+		"startTime": 1,
+		"endTime": 3,
+		"text": "should be visible between 1 - 3 seconds into the video"
+	}, {
+		"startTime": 5,
+		"endTime": 10,
+		"text": "should be visible between 5 - 10 seconds into the video"
+	}]
+}
