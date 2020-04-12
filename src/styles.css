@@ -12,6 +12,7 @@ video {
 	max-height: 100vh;
 	/* 16/9 = 1.778 */
 	max-width: 177.78vh;
+	position: relative;
 	margin: auto;
 	position: absolute;
 	top: 0;
@@ -22,4 +23,47 @@ video {
 
 video:focus {
 	outline: none;
+}
+
+
+
+#captions-container {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: fit-content;
+	width: fit-content;
+	max-width: 70vw;
+	cursor: move;
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+#captions:not(:empty) {
+	color: white;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	opacity: 1;
+	font-size: 24px;
+	margin: 0;
+	padding: 5px 10px;
+}
+
+
+
+
+/* Animation test */
+[captions-id=CC2] {
+	animation: test 5000ms linear;
+}
+
+@keyframes test {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
 }

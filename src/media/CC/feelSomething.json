@@ -9,5 +9,10 @@
 		"startTime": 5,
 		"endTime": 10,
 		"text": "should be visible between 5 - 10 seconds into the video"
+	}, {
+		"id": 3,
+		"startTime": 10,
+		"endTime": 100,
+		"text": "this will be visible for a very very very long time. This is because I need CC to be able to perform tests! jkqjhebafjh wafhjjkqbeafjkw hqfwhakjnqjkwf iqwhfjkbnjkqwabfk qiwfhjkqjkawfnj jwafhjkajkwfbkj awjfhjkabwfjkbkj njwanfjkbajwkbfjk ajwfnjkabwjkfbbwa"
 	}]
 }
