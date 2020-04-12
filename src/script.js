@@ -1,10 +1,24 @@
-//Dev function : remove before production
-document.querySelector('video').volume = 0.1
-
-
 //Variables
 const video = document.querySelector("video")
+const videoCC = document.getElementById("captions")
 let CC
+
+
+
+//Set volume to last known volume (if available)
+const volumePref = localStorage.getItem("volumePref")
+if (volumePref) {
+	video.volume = volumePref
+}
+
+video.addEventListener('volumechange', e => {
+	const volume = e.target.volume
+	localStorage.setItem("volumePref", volume)
+})
+
+
+
+
 
 
 
@@ -17,24 +31,34 @@ fetch('./media/CC/feelSomething.json')
 	})
 
 
+
+
 function addVideoController() {
-	//Update if video is playing
-	// video.addEventListener('timeupdate', e => {
-	// 	const videoTime = e.target.currentTime
-	// console.log("update", e.target.currentTime, CC)
 
-	//TODO: momenteel word de update getriggerd elke keer dat de video timer update (meerdere keren per seconde)
-	//TODO: het probleem hiermee is dat elke seconde de browser 4-5x de CC gaat overschrijven en je dus niet kan animeren
-	//TODO: om dit te fixen moet er een soort check ingebouwd worden die kijkt of de tekst al op beeld staat. als dat zo is moet hij niet geupdate worden
+	//Update the video
+	video.addEventListener('timeupdate', e => {
+		const videoTime = e.target.currentTime //This triggers approx. 4x each second
 
-	// const matchingCC = findCC(videoTime)
-	// checkIfNewCC(matchingCC)
-	// })
+
+		const matchingCC = findCC(videoTime)
+		// console.log("matching CC: ", matchingCC)
+
+		// if ("captions are new") { //Todo: check of captions nieuw zijn of al zichtbaar waren
+		updateVideoCC(matchingCC)
+		// }
+	})
 }
 
 
 
 
-// function findCC(time) {
-// 	return CC.filter(cc => cc.startTime < time && time < cc.endTime)
-// }
+function findCC(time) {
+	return CC.filter(cc => cc.startTime < time && time < cc.endTime)
+}
+
+
+
+function updateVideoCC(captions) {
+	videoCC.innerHTML = captions
+	//todo: insert captions into DOM
+}
