@@ -23,7 +23,7 @@ video.addEventListener('volumechange', e => {
 
 
 //Make sure CC-data is available before using it
-fetch('./media/CC/feelSomething.json')
+fetch('./media/CC/APerfectLap.json')
 	.then(res => res.json())
 	.then(json => {
 		CC = json.CC
