@@ -1,18 +1,15 @@
 {
 	"CC": [{
-		"id": 1,
 		"startTime": 1,
 		"endTime": 3,
 		"text": "should be visible between 1 - 3 seconds into the video"
 	}, {
-		"id": 2,
 		"startTime": 5,
 		"endTime": 10,
 		"text": "should be visible between 5 - 10 seconds into the video"
 	}, {
-		"id": 3,
 		"startTime": 10,
 		"endTime": 100,
-		"text": "this will be visible for a very very very long time. <br> This is because I need CC to be able to perform tests! jkqjhebafjh wafhjjkqbeafjkw hqfwhakjnqjkwf iqwhfjkbnjkqwabfk qiwfhjkqjkawfnj jwafhjkajkwfbkj awjfhjkabwfjkbkj njwanfjkbajwkbfjk ajwfnjkabwjkfbbwa"
+		"text": "this is a really long text. <br> it should be visible for a very long time"
 	}]
 }

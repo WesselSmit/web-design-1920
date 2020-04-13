@@ -1,7 +1,6 @@
 //Variables
 const video = document.querySelector("video")
 const videoCC = document.getElementById("captions")
-let CC
 
 
 
@@ -25,21 +24,25 @@ video.addEventListener('volumechange', e => {
 //Make sure CC-data is available before using it
 fetch('./media/CC/APerfectLap.json')
 	.then(res => res.json())
-	.then(json => {
-		CC = json.CC
-		addVideoController()
+	.then(json => { //Add id's to all json CC
+		return json.CC.map((cc, i) => {
+			return Object.assign(cc, {
+				id: i
+			})
+		})
 	})
+	.then(json => addVideoController(json))
 
 
 
 
 
 //Update the video
-function addVideoController() {
+function addVideoController(CC) {
 	video.addEventListener('timeupdate', e => {
 		const videoTime = e.target.currentTime //This triggers approx. 4x every second
 
-		const matchingCC = findCC(videoTime)
+		const matchingCC = findCC(CC, videoTime)
 
 		if (matchingCC != null) {
 			if (CCisNew(matchingCC)) {
@@ -61,7 +64,7 @@ function addVideoController() {
 
 
 //Helper functions
-function findCC(time) {
+function findCC(CC, time) {
 	const matchingCaptions = CC.find(cc => cc.startTime < time && time < cc.endTime)
 	return matchingCaptions ? matchingCaptions : null
 }
