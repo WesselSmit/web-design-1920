@@ -64,6 +64,8 @@ function addVideoController(CC) {
 
 
 //Helper functions
+
+//Find CC matching the video runtime
 function findCC(CC, time) {
 	const matchingCaptions = CC.find(cc => cc.startTime < time && time < cc.endTime)
 	return matchingCaptions ? matchingCaptions : null
@@ -71,6 +73,7 @@ function findCC(CC, time) {
 
 
 
+//Check if CC is new or if CC is already being shown
 function CCisNew(captions) {
 	const currentCC = videoCC.getAttribute("captions-id")
 	const newCC = "CC" + captions.id
@@ -79,6 +82,7 @@ function CCisNew(captions) {
 
 
 
+//Log the CC changes
 function consoleLogUpdate(matchingCC) {
 	console.log("updating CC: ", [{
 		"old-CC: ": videoCC.textContent
@@ -89,6 +93,7 @@ function consoleLogUpdate(matchingCC) {
 
 
 
+//Update video CC
 function updateVideoCC(captions) {
 	videoCC.innerHTML = captions.text
 	videoCC.setAttribute("captions-id", "CC" + captions.id)
@@ -96,6 +101,7 @@ function updateVideoCC(captions) {
 
 
 
+//Reset the CC to "blank"
 function resetCC() {
 	videoCC.textContent = ""
 	videoCC.setAttribute("captions-id", "")
