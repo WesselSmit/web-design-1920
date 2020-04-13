@@ -1,15 +1,43 @@
 {
 	"CC": [{
-		"startTime": 1,
-		"endTime": 3,
-		"text": "should be visible between 1 - 3 seconds into the video"
+		"startTime": 24,
+		"endTime": 25,
+		"text": "WHOOOOOOOOWW!"
 	}, {
-		"startTime": 5,
-		"endTime": 10,
-		"text": "should be visible between 5 - 10 seconds into the video"
+		"startTime": 26,
+		"endTime": 33,
+		"text": "<span>It's the Fords that are the cars to beat,</span> <span>claiming the top three positions...</span> <span>What the hell is he doing?</span> <span>Led by Ken Miles in Ford number 1...</span>"
 	}, {
-		"startTime": 10,
-		"endTime": 100,
-		"text": "this is a really long text. <br> it should be visible for a very long time"
+		"startTime": 33,
+		"endTime": 47,
+		"text": "<span>TRIIIIING</span> <span>Don't answer that!</span> <span>TRIIIIING</span> <span>Get away from it!</span> <span>Get away from it!</span> <span>TRIIIIIING</span>"
+	}, {
+		"startTime": 67,
+		"endTime": 71,
+		"text": "<span>He's going to break his own record.</span> <span>Shut up.</span>"
+	}, {
+		"startTime": 80,
+		"endTime": 89,
+		"text": "<span>Wait for it.</span> <span>Wait for it.</span> <span>Now.</span>"
+	}, {
+		"startTime": 94,
+		"endTime": 104,
+		"text": "<span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span>"
+	}, {
+		"startTime": 104,
+		"endTime": 119,
+		"text": "<span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span>"
+	}, {
+		"startTime": 133,
+		"endTime": 134,
+		"text": "<span>Impressive</span>"
+	}, {
+		"startTime": 135,
+		"endTime": 140,
+		"text": "<span>3:30.6</span> <span>That's another record.</span>"
+	}, {
+		"startTime": 143,
+		"endTime": 146,
+		"text": "It's a perfect lap."
 	}]
 }
