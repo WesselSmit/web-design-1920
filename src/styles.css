@@ -1,64 +1,74 @@
- /* Global */
+@font-face {
+	font-family: badaboom;
+	src: url(./media/fonts/BADABB__.woff);
+}
 
- :root {
- 	--background-color: black;
- }
+/* Global */
 
- body {
- 	margin: 0;
- 	background-color: var(--background-color);
- }
+:root {
+	--background-color: black;
+}
 
-
-
-
- /* Video */
-
- video {
- 	display: block;
- 	margin: auto;
- }
-
- video:focus {
- 	outline: none;
- }
+body {
+	margin: 0;
+	background-color: var(--background-color);
+}
 
 
 
 
- /* Closed Captions */
+/* Video */
 
- #captions-container {
- 	height: calc(100vh - 720px);
- 	display: grid;
- }
+video {
+	display: block;
+	margin: auto;
+	max-height: 650px;
+}
 
- #captions {
- 	color: white;
- 	text-align: center;
- 	font-family: Arial, Helvetica, sans-serif;
- 	font-size: 24px;
- 	line-height: 40px;
- 	margin: 0;
- 	/* "start" if video has horizontal black bars, otherwise "center" */
- 	align-self: start;
- }
+video:focus {
+	outline: none;
+}
 
 
 
- /* CC Animations */
 
- /* TODO: dit is een test en kan weggehaald worden */
- [captions-id=CC1] {
- 	animation: CC1 5000ms linear;
- }
 
- @keyframes CC1 {
- 	from {
- 		opacity: 0;
- 	}
 
- 	to {
- 		opacity: 1;
- 	}
- }
+/* Closed Captions */
+
+#captions-container {
+	height: calc(100vh - 650px);
+	display: grid;
+}
+
+#captions {
+	color: white;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 40px;
+	margin: 0;
+	/* "start" if video has horizontal black bars, otherwise "center" */
+	align-self: start;
+}
+
+
+
+
+
+
+/* Classes */
+
+#captions span.loudEnvironmentalSound {
+	font-family: "badaboom", Arial, Helvetica, sans-serif;
+	font-size: 50px;
+}
+
+
+
+
+
+
+
+
+/* CC Animations */

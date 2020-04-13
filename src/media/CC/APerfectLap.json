@@ -1,5 +1,21 @@
 {
 	"CC": [{
+		"startTime": 0.9,
+		"endTime": 1.5,
+		"text": "<span class='loudEnvironmentalSound'>SLAM!</span>"
+	}, {
+		"startTime": 2,
+		"endTime": 7,
+		"text": "motor: steeds zachter/verder weg"
+	}, {
+		"startTime": 9.7,
+		"endTime": 13,
+		"text": "geklap"
+	}, {
+		"startTime": 15,
+		"endTime": 19.5,
+		"text": "motor: steeds harder/dichterbij"
+	}, {
 		"startTime": 24,
 		"endTime": 25,
 		"text": "WHOOOOOOOOWW!"
@@ -22,11 +38,11 @@
 	}, {
 		"startTime": 94,
 		"endTime": 104,
-		"text": "<span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span>"
+		"text": "<span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span>"
 	}, {
 		"startTime": 104,
 		"endTime": 119,
-		"text": "<span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span> <span>Miles</span>"
+		"text": "<span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span>"
 	}, {
 		"startTime": 133,
 		"endTime": 134,
