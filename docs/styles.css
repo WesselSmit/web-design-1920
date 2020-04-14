@@ -216,3 +216,86 @@ video:focus {
 	font-family: "badaboom", Arial, Helvetica, sans-serif;
 	font-size: 40px;
 }
+
+
+
+
+[captions-id=CC6] span {
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+#captions[captions-id=CC6] span:nth-of-type(1) {
+	animation: show 1800ms linear forwards, transmission 1000ms infinite ease-in-out alternate-reverse;
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+#captions[captions-id=CC6] span:nth-of-type(2) {
+	animation: show 1500ms 1800ms linear forwards, transmission 1000ms infinite ease-in-out alternate-reverse;
+	left: -100vw;
+	top: -40px;
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+#captions[captions-id=CC6] span:nth-of-type(3) {
+	animation: show 1500ms 3300ms linear forwards;
+	left: -100vw;
+	top: -80px;
+}
+
+#captions[captions-id=CC6] span:nth-of-type(4) {
+	animation: show 10000ms 3800ms linear forwards, transmission 1000ms infinite ease-in-out alternate-reverse;
+	left: -100vw;
+	top: -80px;
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+@keyframes show {
+
+	0%,
+	99.9999% {
+		left: 0;
+	}
+
+	100% {
+		left: -100vw;
+	}
+}
+
+/* Taken from: https://github.com/IanLunn/Hover */
+@keyframes transmission {
+	16.65% {
+		transform: skew(-6deg);
+	}
+
+	33.3% {
+		transform: skew(5deg);
+	}
+
+	49.95% {
+		transform: skew(-3deg);
+	}
+
+	66.6% {
+		transform: skew(2deg);
+	}
+
+	83.25% {
+		transform: skew(-1deg);
+	}
+
+	100% {
+		transform: skew(0);
+	}
+}

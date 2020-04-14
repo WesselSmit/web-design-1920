@@ -22,7 +22,7 @@
 	}, {
 		"startTime": 27,
 		"endTime": 33,
-		"text": "<span>It's the Fords that are the cars to beat,</span> <span>claiming the top three positions...</span> <span>What the hell is he doing?</span> <span>Led by Ken Miles in Ford number 1...</span>"
+		"text": "<span class='radio'>It's the Fords that are the cars to beat,</span> <span class='radio'>claiming the top three positions...</span> <span>[Leo] What the hell is he doing?</span> <span class='radio'>Led by Ken Miles in Ford number 1...</span>"
 	}, {
 		"startTime": 33,
 		"endTime": 47,
