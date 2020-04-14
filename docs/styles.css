@@ -45,7 +45,7 @@ video:focus {
 	color: white;
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 24px;
+	font-size: 30px;
 	line-height: 40px;
 	margin: 0;
 	/* "start" if video has horizontal black bars, otherwise "center" */
@@ -114,7 +114,6 @@ video:focus {
 	}
 }
 
-
 @keyframes CC2fadeOut {
 	from {
 		opacity: 1;
@@ -126,79 +125,24 @@ video:focus {
 }
 
 
-/* #captions[captions-id=CC3] span {
-	animation: showThenHide 750ms var(--animation-delay) linear forwards;
-	opacity: 0;
+
+
+#captions[captions-id=CC3] {
+	animation: fadeInOut 500ms infinite linear forwards;
 }
 
-[captions-id=CC3] span:nth-of-type(1) {
-	--animation-delay: 0ms;
-}
-
-[captions-id=CC3] span:nth-of-type(2) {
-	--animation-delay: 2000ms;
-}
-
-[captions-id=CC3] span:nth-of-type(3) {
-	--animation-delay: 1500ms;
-}
-
-[captions-id=CC3] span:nth-of-type(4) {
-	--animation-delay: 1000ms;
-}
-
-[captions-id=CC3] span:nth-of-type(5) {
-	--animation-delay: 0ms;
-}
-
-[captions-id=CC3] span:nth-of-type(6) {
-	--animation-delay: 1000ms;
-}
-
-[captions-id=CC3] span:nth-of-type(7) {
-	--animation-delay: 500ms;
-}
-
-[captions-id=CC3] span:nth-of-type(8) {
-	--animation-delay: 1500ms;
-}
-
-[captions-id=CC3] span:nth-of-type(9) {
-	--animation-delay: 2000ms;
-}
-
-[captions-id=CC3] span:nth-of-type(10) {
-	--animation-delay: 1000ms;
-}
-
-[captions-id=CC3] span:nth-of-type(11) {
-	--animation-delay: 1500ms;
-}
-
-[captions-id=CC3] span:nth-of-type(12) {
-	--animation-delay: 0ms;
-}
-
-[captions-id=CC3] span:nth-of-type(13) {
-	--animation-delay: 2000ms;
-}
-
-[captions-id=CC3] span:nth-of-type(14) {
-	--animation-delay: 1500ms;
-}
-
-@keyframes showThenHide {
+@keyframes fadeInOut {
 
 	0%,
 	100% {
 		opacity: 0;
 	}
 
-	10%,
-	90% {
+	50% {
 		opacity: 1;
 	}
-} */
+}
+
 
 
 
@@ -263,4 +207,12 @@ video:focus {
 	to {
 		transform: translateX(-100vw);
 	}
+}
+
+
+
+
+#captions[captions-id=CC5] {
+	font-family: "badaboom", Arial, Helvetica, sans-serif;
+	font-size: 40px;
 }
