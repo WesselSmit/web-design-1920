@@ -124,3 +124,143 @@ video:focus {
 		opacity: 0;
 	}
 }
+
+
+/* #captions[captions-id=CC3] span {
+	animation: showThenHide 750ms var(--animation-delay) linear forwards;
+	opacity: 0;
+}
+
+[captions-id=CC3] span:nth-of-type(1) {
+	--animation-delay: 0ms;
+}
+
+[captions-id=CC3] span:nth-of-type(2) {
+	--animation-delay: 2000ms;
+}
+
+[captions-id=CC3] span:nth-of-type(3) {
+	--animation-delay: 1500ms;
+}
+
+[captions-id=CC3] span:nth-of-type(4) {
+	--animation-delay: 1000ms;
+}
+
+[captions-id=CC3] span:nth-of-type(5) {
+	--animation-delay: 0ms;
+}
+
+[captions-id=CC3] span:nth-of-type(6) {
+	--animation-delay: 1000ms;
+}
+
+[captions-id=CC3] span:nth-of-type(7) {
+	--animation-delay: 500ms;
+}
+
+[captions-id=CC3] span:nth-of-type(8) {
+	--animation-delay: 1500ms;
+}
+
+[captions-id=CC3] span:nth-of-type(9) {
+	--animation-delay: 2000ms;
+}
+
+[captions-id=CC3] span:nth-of-type(10) {
+	--animation-delay: 1000ms;
+}
+
+[captions-id=CC3] span:nth-of-type(11) {
+	--animation-delay: 1500ms;
+}
+
+[captions-id=CC3] span:nth-of-type(12) {
+	--animation-delay: 0ms;
+}
+
+[captions-id=CC3] span:nth-of-type(13) {
+	--animation-delay: 2000ms;
+}
+
+[captions-id=CC3] span:nth-of-type(14) {
+	--animation-delay: 1500ms;
+}
+
+@keyframes showThenHide {
+
+	0%,
+	100% {
+		opacity: 0;
+	}
+
+	10%,
+	90% {
+		opacity: 1;
+	}
+} */
+
+
+
+#captions[captions-id=CC4] {
+	animation: CC4decrease 5000ms 0ms linear forwards, CC4shake 500ms 0ms infinite linear forwards, CC4fadeOut 4500ms 0ms cubic-bezier(.64, .11, .98, .77) forwards, CC4moveLeft 500ms 4200ms ease-out forwards;
+	font-size: 50px;
+}
+
+@keyframes CC4decrease {
+
+	from {
+		transform: scale(.1);
+		font-size: 20px;
+	}
+
+	to {
+		transform: scale(1);
+		font-size: 50px;
+	}
+}
+
+@keyframes CC4shake {
+
+	10%,
+	90% {
+		transform: translate3d(-1px, 5px, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(2px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-4px, -2px, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(4px, 0, 0);
+	}
+}
+
+
+@keyframes CC4fadeOut {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes CC4moveLeft {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(-100vw);
+	}
+}

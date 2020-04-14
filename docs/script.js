@@ -60,6 +60,23 @@ function addVideoController(CC) {
 
 
 
+//Video skipping
+window.addEventListener("keydown", e => {
+	const pressedKey = e.code
+	const back = "ArrowLeft"
+	const forwards = "ArrowRight"
+	const timeJump = 10
+
+	if (pressedKey === back) {
+		video.currentTime -= timeJump
+	} else if (pressedKey === forwards) {
+		video.currentTime += timeJump
+	}
+})
+
+
+
+
 
 
 
