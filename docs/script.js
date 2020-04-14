@@ -27,7 +27,7 @@ fetch('./media/CC/APerfectLap.json')
 	.then(json => { //Add id's to all json CC
 		return json.CC.map((cc, i) => {
 			return Object.assign(cc, {
-				id: i
+				id: i + 1
 			})
 		})
 	})

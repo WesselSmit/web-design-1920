@@ -72,3 +72,55 @@ video:focus {
 
 
 /* CC Animations */
+
+#captions[captions-id=CC2] {
+	animation: CC2decrease 5000ms linear forwards, CC2shake 500ms infinite linear forwards, CC2fadeOut 6000ms cubic-bezier(.64, .11, .98, .77) forwards;
+	font-size: 50px;
+}
+
+@keyframes CC2decrease {
+	from {
+		transform: scale(1);
+		font-size: 50px;
+	}
+
+	to {
+		transform: scale(.1);
+		font-size: 20px;
+	}
+}
+
+@keyframes CC2shake {
+
+	10%,
+	90% {
+		transform: translate3d(-1px, 5px, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(2px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-4px, -2px, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(4px, 0, 0);
+	}
+}
+
+
+@keyframes CC2fadeOut {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
