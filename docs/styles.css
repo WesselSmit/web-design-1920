@@ -228,7 +228,7 @@ video:focus {
 }
 
 #captions[captions-id=CC6] span:nth-of-type(1) {
-	animation: show 1800ms linear forwards, transmission 1000ms infinite ease-in-out alternate-reverse;
+	animation: show 1800ms linear forwards;
 	transform: perspective(1px) translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	font-size: 40px;
@@ -236,7 +236,7 @@ video:focus {
 }
 
 #captions[captions-id=CC6] span:nth-of-type(2) {
-	animation: show 1500ms 1800ms linear forwards, transmission 1000ms infinite ease-in-out alternate-reverse;
+	animation: show 1500ms 1800ms linear forwards;
 	left: -100vw;
 	top: -40px;
 	transform: perspective(1px) translateZ(0);
@@ -252,9 +252,9 @@ video:focus {
 }
 
 #captions[captions-id=CC6] span:nth-of-type(4) {
-	animation: show 10000ms 3800ms linear forwards, transmission 1000ms infinite ease-in-out alternate-reverse;
+	animation: show 10000ms 3800ms linear forwards;
 	left: -100vw;
-	top: -80px;
+	top: -70px;
 	transform: perspective(1px) translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	font-size: 40px;
@@ -660,3 +660,124 @@ video:focus {
 		clip-path: inset(28% 0 22% 0);
 	}
 }
+
+
+
+
+
+#captions[captions-id=CC7] span {
+	position: relative;
+	display: block;
+}
+
+#captions[captions-id=CC7] span.alarm {
+	font-family: "badaboom";
+	font-size: 70px;
+}
+
+#captions[captions-id=CC7] span:nth-of-type(1) {
+	animation: alarm 500ms 0ms linear infinite, hide 1ms 1500ms forwards;
+}
+
+#captions[captions-id=CC7] span:nth-of-type(2) {
+	animation: appear 1ms 4000ms forwards, hide 1ms 5000ms forwards;
+	opacity: 0;
+	top: 10px;
+}
+
+#captions[captions-id=CC7] span:nth-of-type(3) {
+	animation: appear 1ms 3600ms forwards, alarm 500ms 3600ms linear infinite, hide 1ms 5600ms forwards;
+	opacity: 0;
+	top: -80px;
+}
+
+#captions[captions-id=CC7] span:nth-of-type(4) {
+	animation: appear 1ms 5200ms forwards, hide 1ms 6200ms forwards;
+	opacity: 0;
+	top: -80px;
+}
+
+#captions[captions-id=CC7] span:nth-of-type(5) {
+	animation: appear 1ms 7000ms forwards, hide 1ms 8000ms forwards;
+	opacity: 0;
+	top: -120px;
+}
+
+#captions[captions-id=CC7] span:nth-of-type(6) {
+	animation: appear 1ms 7800ms forwards, alarm 500ms 7800ms linear infinite, hide 1ms 9800ms forwards;
+	opacity: 0;
+	top: -200px;
+}
+
+#captions[captions-id=CC7] span:nth-of-type(7) {
+	animation: appear 1ms 12000ms forwards, alarm 500ms 12000ms linear infinite, hide 1ms 13000ms forwards;
+	opacity: 0;
+	top: -240px;
+}
+
+@keyframes hide {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes appear {
+
+	0%,
+	99.999% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes alarm {
+	0% {
+		transform: translate(2px, 2px) rotate(0deg);
+	}
+
+	10% {
+		transform: translate(-2px, -4px) rotate(-1deg);
+	}
+
+	20% {
+		transform: translate(-6px, 0px) rotate(1deg);
+	}
+
+	30% {
+		transform: translate(6px, 4px) rotate(0deg);
+	}
+
+	40% {
+		transform: translate(2px, -2px) rotate(1deg);
+	}
+
+	50% {
+		transform: translate(-2px, 4px) rotate(-1deg);
+	}
+
+	60% {
+		transform: translate(-6px, 2px) rotate(0deg);
+	}
+
+	70% {
+		transform: translate(6px, 2px) rotate(-1deg);
+	}
+
+	80% {
+		transform: translate(-2px, -2px) rotate(1deg);
+	}
+
+	90% {
+		transform: translate(2px, 4px) rotate(0deg);
+	}
+
+	100% {
+		transform: translate(2px, -4px) rotate(-1deg);
+	}
