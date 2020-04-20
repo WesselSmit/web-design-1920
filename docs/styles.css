@@ -228,8 +228,7 @@ video:focus {
 }
 
 #captions[captions-id=CC6] span:nth-of-type(1) {
-	/* animation: show 1800ms linear forwards, transmission 1000ms infinite ease-in-out alternate-reverse; */
-	animation: show 1000000ms linear forwards;
+	animation: show 1800ms linear forwards, transmission 1000ms infinite ease-in-out alternate-reverse;
 	transform: perspective(1px) translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	font-size: 40px;
@@ -237,7 +236,7 @@ video:focus {
 }
 
 #captions[captions-id=CC6] span:nth-of-type(2) {
-	/* animation: show 1500ms 1800ms linear forwards, transmission 1000ms infinite ease-in-out alternate-reverse; */
+	animation: show 1500ms 1800ms linear forwards, transmission 1000ms infinite ease-in-out alternate-reverse;
 	left: -100vw;
 	top: -40px;
 	transform: perspective(1px) translateZ(0);
@@ -247,13 +246,13 @@ video:focus {
 }
 
 #captions[captions-id=CC6] span:nth-of-type(3) {
-	/* animation: show 1500ms 3300ms linear forwards; */
+	animation: show 1500ms 3300ms linear forwards;
 	left: -100vw;
 	top: -80px;
 }
 
 #captions[captions-id=CC6] span:nth-of-type(4) {
-	/* animation: show 10000ms 3800ms linear forwards, transmission 1000ms infinite ease-in-out alternate-reverse; */
+	animation: show 10000ms 3800ms linear forwards, transmission 1000ms infinite ease-in-out alternate-reverse;
 	left: -100vw;
 	top: -80px;
 	transform: perspective(1px) translateZ(0);
@@ -274,49 +273,50 @@ video:focus {
 	}
 }
 
-/* Taken from: https://github.com/IanLunn/Hover */
-@keyframes transmission {
-	/* 16.65% {
-		transform: skew(-6deg);
-	}
-
-	33.3% {
-		transform: skew(5deg);
-	}
-
-	49.95% {
-		transform: skew(-3deg);
-	}
-
-	66.6% {
-		transform: skew(2deg);
-	}
-
-	83.25% {
-		transform: skew(-1deg);
-	}
-
-	100% {
-		transform: skew(0);
-	} */
+#captions[captions-id=CC6] span.radio:nth-of-type(1)::before,
+#captions[captions-id=CC6] span.radio:nth-of-type(1)::after {
+	content: "IT'S THE FORDS THAT ARE THE CARS TO BEAT,";
 }
 
-/* TODO: 
-- oude radio animation weg (staat hierboven) 
-- nieuwe animatie fine tunen, zorg ervoor dat alles te lezen is, gesynced is etc.
-- de "content" van de before/after moet per <span> anders zijn */
+#captions[captions-id=CC6] span.radio:nth-of-type(2)::before,
+#captions[captions-id=CC6] span.radio:nth-of-type(2)::after {
+	content: "CLAIMING THE TOP THREE POSITIONS...";
+}
 
+#captions[captions-id=CC6] span.radio:nth-of-type(4)::before,
+#captions[captions-id=CC6] span.radio:nth-of-type(4)::after {
+	content: "LED BY KEN MILES IN FORD NUMBER 1...";
+}
 
-.radio {
+#captions[captions-id=CC6] span.radio::before {
+	text-shadow: 1px 0 blue;
 	color: white;
-	font-size: 100px;
-	position: relative;
-	width: 400px;
-	margin: 0 auto;
+	background: black;
+	overflow: hidden;
+	animation: horizontal-disorder-og 15s infinite linear alternate-reverse;
+	position: absolute;
+	top: 15px;
+	left: calc(50% + 15px);
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
 }
+
+#captions[captions-id=CC6] span.radio::after {
+	text-shadow: -1px 0 red;
+	color: white;
+	background: black;
+	overflow: hidden;
+	animation: vertical-disorder 2s infinite linear alternate-reverse;
+	position: absolute;
+	top: 15px;
+	left: calc(50% + 15px);
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
 
 /* Taken from https://codepen.io/chriscoyier/pen/xxKRQRm?editors=1100 */
-@keyframes noise-anim {
+@keyframes vertical-disorder-og {
 	0% {
 		clip-path: inset(79% 0 10% 0);
 	}
@@ -402,22 +402,94 @@ video:focus {
 	}
 }
 
-.radio::after {
-	content: "IT'S THRE FORDS THAT ARE THE CARS TO BEAT,";
-	text-shadow: -1px 0 red;
-	color: white;
-	background: black;
-	overflow: hidden;
-	animation: noise-anim 2s infinite linear alternate-reverse;
-	position: absolute;
-	top: 15px;
-	left: calc(50% + 15px);
-	margin-right: -50%;
-	transform: translate(-50%, -50%);
+@keyframes vertical-disorder {
+	0% {
+		clip-path: inset(40% 0 5% 0);
+	}
+
+	5% {
+		clip-path: inset(36% 0 5% 0);
+	}
+
+	10% {
+		clip-path: inset(20% 0 13% 0);
+	}
+
+	15% {
+		clip-path: inset(10% 0 26% 0);
+	}
+
+	20% {
+		clip-path: inset(50% 0 1% 0);
+	}
+
+	25% {
+		clip-path: inset(41% 0 1% 0);
+	}
+
+	30% {
+		clip-path: inset(14% 0 31% 0);
+	}
+
+	35% {
+		clip-path: inset(37% 0 5% 0);
+	}
+
+	40% {
+		clip-path: inset(50% 0 1% 0);
+	}
+
+	45% {
+		clip-path: inset(26% 0 17% 0);
+	}
+
+	50% {
+		clip-path: inset(41% 0 3% 0);
+	}
+
+	55% {
+		clip-path: inset(30% 0 12% 0);
+	}
+
+	60% {
+		clip-path: inset(45% 0 1% 0);
+	}
+
+	65% {
+		clip-path: inset(39% 0 3% 0);
+	}
+
+	70% {
+		clip-path: inset(23% 0 26% 0);
+	}
+
+	75% {
+		clip-path: inset(11% 0 17% 0);
+	}
+
+	80% {
+		clip-path: inset(14% 0 33% 0);
+	}
+
+	85% {
+		clip-path: inset(4% 0 30% 0);
+	}
+
+	90% {
+		clip-path: inset(24% 0 25% 0);
+	}
+
+	95% {
+		clip-path: inset(15% 0 13% 0);
+	}
+
+	100% {
+		clip-path: inset(7% 0 39% 0);
+	}
 }
 
 /* Taken form https://codepen.io/chriscoyier/pen/xxKRQRm?editors=1100 */
-@keyframes noise-anim-2 {
+@keyframes horizontal-disorder-og {
 	0% {
 		clip-path: inset(48% 0 4% 0);
 	}
@@ -503,16 +575,88 @@ video:focus {
 	}
 }
 
-.radio::before {
-	content: "IT'S THRE FORDS THAT ARE THE CARS TO BEAT,";
-	text-shadow: 1px 0 blue;
-	color: white;
-	background: black;
-	overflow: hidden;
-	animation: noise-anim-2 15s infinite linear alternate-reverse;
-	position: absolute;
-	top: 15px;
-	left: calc(50% + 15px);
-	margin-right: -50%;
-	transform: translate(-50%, -50%);
+@keyframes horizontal-disorder {
+	0% {
+		clip-path: inset(24% 0 2% 0);
+	}
+
+	5% {
+		clip-path: inset(5% 0 37% 0);
+	}
+
+	10% {
+		clip-path: inset(40% 0 1% 0);
+	}
+
+	15% {
+		clip-path: inset(2% 0 13% 0);
+	}
+
+	20% {
+		clip-path: inset(42% 0 2% 0);
+	}
+
+	25% {
+		clip-path: inset(42% 0 3% 0);
+	}
+
+	30% {
+		clip-path: inset(6% 0 10% 0);
+	}
+
+	35% {
+		clip-path: inset(41% 0 9% 0);
+	}
+
+	40% {
+		clip-path: inset(11% 0 27% 0);
+	}
+
+	45% {
+		clip-path: inset(42% 0 6% 0);
+	}
+
+	50% {
+		clip-path: inset(40% 0 11% 0);
+	}
+
+	55% {
+		clip-path: inset(3% 0 20% 0);
+	}
+
+	60% {
+		clip-path: inset(35% 0 13% 0);
+	}
+
+	65% {
+		clip-path: inset(8% 0 15% 0);
+	}
+
+	70% {
+		clip-path: inset(8% 0 22% 0);
+	}
+
+	75% {
+		clip-path: inset(6% 0 5% 0);
+	}
+
+	80% {
+		clip-path: inset(28% 0 10% 0);
+	}
+
+	85% {
+		clip-path: inset(31% 0 16% 0);
+	}
+
+	90% {
+		clip-path: inset(31% 0 6% 0);
+	}
+
+	95% {
+		clip-path: inset(13% 0 33% 0);
+	}
+
+	100% {
+		clip-path: inset(28% 0 22% 0);
+	}
 }
