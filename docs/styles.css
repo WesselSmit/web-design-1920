@@ -703,6 +703,13 @@ video:focus {
 	top: -120px;
 }
 
+#captions[captions-id=CC7] span:nth-of-type(5)::before {
+	content: "2x";
+	font-size: 40px;
+	font-family: "badaboom";
+	margin-right: 10px;
+}
+
 #captions[captions-id=CC7] span:nth-of-type(6) {
 	animation: appear 1ms 7800ms forwards, alarm 500ms 7800ms linear infinite, hide 1ms 9800ms forwards;
 	opacity: 0;
