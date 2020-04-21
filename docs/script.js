@@ -1,3 +1,8 @@
+//TODO: remove 
+// * development code: (1 line)
+document.querySelector("video").currentTime = 51
+
+
 //Variables
 const video = document.querySelector("video")
 const videoCC = document.getElementById("captions")

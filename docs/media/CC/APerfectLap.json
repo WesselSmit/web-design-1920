@@ -28,13 +28,17 @@
 		"endTime": 47,
 		"text": "<span class='alarm'>TRIIIIING</span> <span>[Carroll] Don't answer that!</span> <span class='alarm'>TRIIIIING</span> <span>[Carroll] Get away from it!</span> <span>[Carroll] Get away from it!</span> <span class='alarm'>TRIIIIIING</span> <span class='alarm'>TRIIIIIING</span>"
 	}, {
-		"startTime": 67,
+		"startTime": 52.2,
+		"endTime": 67,
+		"text": "ROARING MOTOR!"
+	}, {
+		"startTime": 68.4,
 		"endTime": 71,
 		"text": "<span>He's going to break his own record.</span> <span>Shut up.</span>"
 	}, {
 		"startTime": 80,
 		"endTime": 89,
-		"text": "<span>Wait for it.</span> <span>Wait for it.</span> <span>Now.</span>"
+		"text": "<span>[Carroll] Wait for it.</span> <span>[Carroll] Wait for it.</span> <span>[Carroll] Now.</span>"
 	}, {
 		"startTime": 94,
 		"endTime": 104,

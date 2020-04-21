@@ -14,9 +14,6 @@ body {
 	background-color: var(--background-color);
 }
 
-
-
-
 /* Video */
 
 video {
@@ -28,11 +25,6 @@ video {
 video:focus {
 	outline: none;
 }
-
-
-
-
-
 
 /* Closed Captions */
 
@@ -52,11 +44,6 @@ video:focus {
 	align-self: start;
 }
 
-
-
-
-
-
 /* Classes */
 
 #captions span.loudEnvironmentalSound {
@@ -64,17 +51,11 @@ video:focus {
 	font-size: 50px;
 }
 
-
-
-
-
-
-
-
 /* CC Animations */
 
-#captions[captions-id=CC2] {
-	animation: CC2decrease 5000ms linear forwards, CC2shake 500ms infinite linear forwards, CC2fadeOut 6000ms cubic-bezier(.64, .11, .98, .77) forwards;
+#captions[captions-id="CC2"] {
+	animation: CC2decrease 5000ms linear forwards, CC2shake 500ms infinite linear forwards,
+		CC2fadeOut 6000ms cubic-bezier(0.64, 0.11, 0.98, 0.77) forwards;
 	font-size: 50px;
 }
 
@@ -85,13 +66,12 @@ video:focus {
 	}
 
 	to {
-		transform: scale(.1);
+		transform: scale(0.1);
 		font-size: 20px;
 	}
 }
 
 @keyframes CC2shake {
-
 	10%,
 	90% {
 		transform: translate3d(-1px, 5px, 0);
@@ -124,15 +104,11 @@ video:focus {
 	}
 }
 
-
-
-
-#captions[captions-id=CC3] {
+#captions[captions-id="CC3"] {
 	animation: fadeInOut 500ms infinite linear forwards;
 }
 
 @keyframes fadeInOut {
-
 	0%,
 	100% {
 		opacity: 0;
@@ -143,18 +119,15 @@ video:focus {
 	}
 }
 
-
-
-
-#captions[captions-id=CC4] {
-	animation: CC4decrease 5000ms 0ms linear forwards, CC4shake 500ms 0ms infinite linear forwards, CC4fadeOut 4500ms 0ms cubic-bezier(.64, .11, .98, .77) forwards, CC4moveLeft 500ms 4200ms ease-out forwards;
+#captions[captions-id="CC4"] {
+	animation: CC4decrease 5000ms 0ms linear forwards, CC4shake 500ms 0ms infinite linear forwards,
+		CC4fadeOut 4500ms 0ms cubic-bezier(0.64, 0.11, 0.98, 0.77) forwards, CC4moveLeft 500ms 4200ms ease-out forwards;
 	font-size: 50px;
 }
 
 @keyframes CC4decrease {
-
 	from {
-		transform: scale(.1);
+		transform: scale(0.1);
 		font-size: 20px;
 	}
 
@@ -165,7 +138,6 @@ video:focus {
 }
 
 @keyframes CC4shake {
-
 	10%,
 	90% {
 		transform: translate3d(-1px, 5px, 0);
@@ -188,7 +160,6 @@ video:focus {
 	}
 }
 
-
 @keyframes CC4fadeOut {
 	from {
 		opacity: 0;
@@ -209,25 +180,19 @@ video:focus {
 	}
 }
 
-
-
-
-#captions[captions-id=CC5] {
+#captions[captions-id="CC5"] {
 	font-family: "badaboom", Arial, Helvetica, sans-serif;
 	font-size: 40px;
 }
 
-
-
-
-[captions-id=CC6] span {
+[captions-id="CC6"] span {
 	display: block;
 	width: 100%;
 	text-align: center;
 	position: relative;
 }
 
-#captions[captions-id=CC6] span:nth-of-type(1) {
+#captions[captions-id="CC6"] span:nth-of-type(1) {
 	animation: show 1800ms linear forwards;
 	transform: perspective(1px) translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -235,7 +200,7 @@ video:focus {
 	text-transform: uppercase;
 }
 
-#captions[captions-id=CC6] span:nth-of-type(2) {
+#captions[captions-id="CC6"] span:nth-of-type(2) {
 	animation: show 1500ms 1800ms linear forwards;
 	left: -100vw;
 	top: -40px;
@@ -245,13 +210,13 @@ video:focus {
 	text-transform: uppercase;
 }
 
-#captions[captions-id=CC6] span:nth-of-type(3) {
+#captions[captions-id="CC6"] span:nth-of-type(3) {
 	animation: show 1500ms 3300ms linear forwards;
 	left: -100vw;
 	top: -80px;
 }
 
-#captions[captions-id=CC6] span:nth-of-type(4) {
+#captions[captions-id="CC6"] span:nth-of-type(4) {
 	animation: show 10000ms 3800ms linear forwards;
 	left: -100vw;
 	top: -70px;
@@ -262,7 +227,6 @@ video:focus {
 }
 
 @keyframes show {
-
 	0%,
 	99.9999% {
 		left: 0;
@@ -273,22 +237,22 @@ video:focus {
 	}
 }
 
-#captions[captions-id=CC6] span.radio:nth-of-type(1)::before,
-#captions[captions-id=CC6] span.radio:nth-of-type(1)::after {
+#captions[captions-id="CC6"] span.radio:nth-of-type(1)::before,
+#captions[captions-id="CC6"] span.radio:nth-of-type(1)::after {
 	content: "IT'S THE FORDS THAT ARE THE CARS TO BEAT,";
 }
 
-#captions[captions-id=CC6] span.radio:nth-of-type(2)::before,
-#captions[captions-id=CC6] span.radio:nth-of-type(2)::after {
+#captions[captions-id="CC6"] span.radio:nth-of-type(2)::before,
+#captions[captions-id="CC6"] span.radio:nth-of-type(2)::after {
 	content: "CLAIMING THE TOP THREE POSITIONS...";
 }
 
-#captions[captions-id=CC6] span.radio:nth-of-type(4)::before,
-#captions[captions-id=CC6] span.radio:nth-of-type(4)::after {
+#captions[captions-id="CC6"] span.radio:nth-of-type(4)::before,
+#captions[captions-id="CC6"] span.radio:nth-of-type(4)::after {
 	content: "LED BY KEN MILES IN FORD NUMBER 1...";
 }
 
-#captions[captions-id=CC6] span.radio::before {
+#captions[captions-id="CC6"] span.radio::before {
 	text-shadow: 1px 0 blue;
 	color: white;
 	background: black;
@@ -301,7 +265,7 @@ video:focus {
 	transform: translate(-50%, -50%);
 }
 
-#captions[captions-id=CC6] span.radio::after {
+#captions[captions-id="CC6"] span.radio::after {
 	text-shadow: -1px 0 red;
 	color: white;
 	background: black;
@@ -313,7 +277,6 @@ video:focus {
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
 }
-
 
 /* Taken from https://codepen.io/chriscoyier/pen/xxKRQRm?editors=1100 */
 @keyframes vertical-disorder-og {
@@ -661,62 +624,58 @@ video:focus {
 	}
 }
 
-
-
-
-
-#captions[captions-id=CC7] span {
+#captions[captions-id="CC7"] span {
 	position: relative;
 	display: block;
 }
 
-#captions[captions-id=CC7] span.alarm {
+#captions[captions-id="CC7"] span.alarm {
 	font-family: "badaboom";
 	font-size: 70px;
 }
 
-#captions[captions-id=CC7] span:nth-of-type(1) {
+#captions[captions-id="CC7"] span:nth-of-type(1) {
 	animation: alarm 500ms 0ms linear infinite, hide 1ms 1500ms forwards;
 }
 
-#captions[captions-id=CC7] span:nth-of-type(2) {
+#captions[captions-id="CC7"] span:nth-of-type(2) {
 	animation: appear 1ms 4000ms forwards, hide 1ms 5000ms forwards;
 	opacity: 0;
 	top: 10px;
 }
 
-#captions[captions-id=CC7] span:nth-of-type(3) {
+#captions[captions-id="CC7"] span:nth-of-type(3) {
 	animation: appear 1ms 3600ms forwards, alarm 500ms 3600ms linear infinite, hide 1ms 5600ms forwards;
 	opacity: 0;
 	top: -80px;
 }
 
-#captions[captions-id=CC7] span:nth-of-type(4) {
+#captions[captions-id="CC7"] span:nth-of-type(4) {
 	animation: appear 1ms 5200ms forwards, hide 1ms 6200ms forwards;
 	opacity: 0;
 	top: -80px;
 }
 
-#captions[captions-id=CC7] span:nth-of-type(5) {
+#captions[captions-id="CC7"] span:nth-of-type(5) {
 	animation: appear 1ms 7000ms forwards, hide 1ms 8000ms forwards;
 	opacity: 0;
 	top: -120px;
 }
 
-#captions[captions-id=CC7] span:nth-of-type(5)::before {
+#captions[captions-id="CC7"] span:nth-of-type(5)::before {
 	content: "2x";
 	font-size: 40px;
 	font-family: "badaboom";
 	margin-right: 10px;
 }
 
-#captions[captions-id=CC7] span:nth-of-type(6) {
+#captions[captions-id="CC7"] span:nth-of-type(6) {
 	animation: appear 1ms 7800ms forwards, alarm 500ms 7800ms linear infinite, hide 1ms 9800ms forwards;
 	opacity: 0;
 	top: -200px;
 }
 
-#captions[captions-id=CC7] span:nth-of-type(7) {
+#captions[captions-id="CC7"] span:nth-of-type(7) {
 	animation: appear 1ms 12000ms forwards, alarm 500ms 12000ms linear infinite, hide 1ms 13000ms forwards;
 	opacity: 0;
 	top: -240px;
@@ -733,7 +692,6 @@ video:focus {
 }
 
 @keyframes appear {
-
 	0%,
 	99.999% {
 		opacity: 0;
@@ -788,3 +746,67 @@ video:focus {
 	100% {
 		transform: translate(2px, -4px) rotate(-1deg);
 	}
+}
+
+#captions[captions-id="CC8"] {
+	animation: motor 15000ms 0ms linear forwards, CC2shake 500ms 4 linear forwards,
+		shake-long 500ms linear infinite forwards;
+	opacity: 0;
+}
+
+/* 15000ms / 100 = 150ms / 1% || 1500 / 10%*/
+@keyframes motor {
+	0%,
+	13% {
+		opacity: 1;
+		font-size: 40px;
+	}
+
+	13.01%,
+	23% {
+		opacity: 0;
+	}
+
+	23.01%,
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes shake-long {
+	10%,
+	90% {
+		transform: translate3d(-1px, 5px, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(2px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-4px, -2px, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(4px, 0, 0);
+	}
+}
+
+#captions[captions-id="CC9"] span {
+	display: block;
+	position: relative;
+}
+
+#captions[captions-id="CC9"] span:nth-of-type(1) {
+	animation: hide 1ms 1000ms forwards;
+}
+
+#captions[captions-id="CC9"] span:nth-of-type(2) {
+	animation: appear 1ms 1500ms forwards;
+	opacity: 0;
+	top: -40px;
+}
