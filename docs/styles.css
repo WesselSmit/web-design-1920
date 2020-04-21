@@ -749,8 +749,11 @@ video:focus {
 }
 
 #captions[captions-id="CC8"] {
-	animation: motor 15000ms 0ms linear forwards, CC2shake 500ms 4 linear forwards,
-		accelerate-1 500ms 2800ms 10 linear forwards, grow-1 5000ms 2800ms ease-in forwards;
+	animation: motor 15000ms 0ms linear forwards, CC2shake 500ms 8 linear forwards,
+		accelerate-1 500ms 2800ms 10 linear forwards, grow-1 5000ms 2800ms ease-in forwards,
+		accelerate-2 500ms 7800ms 9 linear forwards, grow-2 4500ms 7800ms ease-in forwards,
+		accelerate-3 500ms 12300ms 3 linear forwards, grow-3 4500ms 12300ms ease-in forwards,
+		accelerate-3-half 500ms 13800ms 2 linear forwards;
 	opacity: 0;
 }
 
@@ -761,10 +764,23 @@ video:focus {
 		font-weight: 400;
 	}
 
+	10% {
+		opacity: 1;
+	}
+
 	13.01%,
 	20% {
 		opacity: 0;
 		font-weight: 400;
+	}
+
+	20.01% {
+		opacity: 1;
+		font-weight: 600;
+	}
+
+	63.3% {
+		font-weight: 900;
 	}
 
 	20.01%,
@@ -777,6 +793,93 @@ video:focus {
 /* "@keyframe-1"   55 - 60 */
 /* "@keyframe-2"   60.01 - 64.5 */
 /* "@keyframe-3"   64.501 - 67 */
+
+@keyframes accelerate-3-half {
+	10%,
+	90% {
+		transform: translate3d(-4px, 20px, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(8px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-16px, -8px, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(16px, 0, 0);
+	}
+}
+
+@keyframes accelerate-3 {
+	10%,
+	90% {
+		transform: translate3d(-2px, 10px, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(4px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-8px, -4px, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(8px, 0, 0);
+	}
+}
+
+@keyframes grow-2 {
+	from {
+		font-size: 45px;
+	}
+	to {
+		font-size: 55px;
+	}
+}
+
+@keyframes accelerate-2 {
+	10%,
+	90% {
+		transform: translate3d(-1.5px, 7.5px, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(3px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-6px, -3px, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(6px, 0, 0);
+	}
+}
+
+@keyframes grow-2 {
+	from {
+		font-size: 40px;
+	}
+	to {
+		font-size: 45px;
+	}
+}
 
 @keyframes accelerate-1 {
 	10%,
