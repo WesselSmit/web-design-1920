@@ -927,3 +927,23 @@ video:focus {
 	opacity: 0;
 	top: -40px;
 }
+
+#captions[captions-id="CC10"] span {
+	display: block;
+	position: relative;
+}
+
+#captions[captions-id="CC10"] span:nth-of-type(1) {
+	animation: hide 1ms 1000ms forwards;
+}
+
+#captions[captions-id="CC10"] span:nth-of-type(2) {
+	animation: appear 1ms 3200ms forwards, hide 1ms 4200ms forwards;
+	opacity: 0;
+	top: -40px;
+}
+#captions[captions-id="CC10"] span:nth-of-type(3) {
+	animation: appear 1ms 7700ms forwards, hide 1ms 8200ms forwards;
+	opacity: 0;
+	top: -80px;
+}
