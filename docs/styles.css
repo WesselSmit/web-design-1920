@@ -276,7 +276,7 @@ video:focus {
 	color: white;
 	background: black;
 	overflow: hidden;
-	animation: horizontal-disorder-og 15s infinite linear alternate-reverse;
+	animation: horizontal-disorder 15s infinite linear alternate-reverse;
 	position: absolute;
 	top: 15px;
 	left: calc(50% + 15px);
