@@ -1,5 +1,6 @@
 //Variables
 const video = document.querySelector("video")
+const ccContainer = document.getElementById('captions-container')
 const videoCC = document.getElementById("captions")
 
 
@@ -114,6 +115,7 @@ function consoleLogUpdate(matchingCC) {
 function updateVideoCC(captions) {
 	videoCC.innerHTML = captions.text
 	videoCC.setAttribute("captions-id", "CC" + captions.id)
+	ccContainer.setAttribute("cc-id", "CC" + captions.id)
 }
 
 
@@ -122,6 +124,7 @@ function updateVideoCC(captions) {
 function resetCC() {
 	videoCC.textContent = ""
 	videoCC.setAttribute("captions-id", "")
+	ccContainer.setAttribute("cc-id", "")
 
 	console.log("CC was reset")
 }

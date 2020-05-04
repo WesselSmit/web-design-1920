@@ -192,6 +192,25 @@ video:focus {
 	position: relative;
 }
 
+/* TV grain BG */
+
+#captions-container[cc-id="CC6"] {
+	overflow: hidden;
+}
+
+#captions-container[cc-id="CC6"]::before {
+	content: "";
+	background: url("./media/grain.gif");
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	/* z-index: -100; */
+	opacity: 0.2;
+	pointer-events: none;
+}
+
 #captions[captions-id="CC6"] span:nth-of-type(1) {
 	animation: show 1800ms linear forwards;
 	transform: perspective(1px) translateZ(0);
@@ -660,13 +679,6 @@ video:focus {
 	animation: appear 1ms 7000ms forwards, hide 1ms 8000ms forwards;
 	opacity: 0;
 	top: -120px;
-}
-
-#captions[captions-id="CC7"] span:nth-of-type(5)::before {
-	content: "2x";
-	font-size: 40px;
-	font-family: "badaboom";
-	margin-right: 10px;
 }
 
 #captions[captions-id="CC7"] span:nth-of-type(6) {
