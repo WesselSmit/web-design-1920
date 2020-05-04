@@ -762,6 +762,10 @@ video:focus {
 
 #captions[captions-id="CC8"] span {
 	opacity: 0;
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: relative;
 }
 
 #captions[captions-id="CC8"] span:nth-of-type(1) {
@@ -783,6 +787,7 @@ video:focus {
 #captions[captions-id="CC8"] span:nth-of-type(2) {
 	animation: test1 5500ms 3000ms linear forwards;
 	color: blue;
+	top: -40px;
 }
 
 @keyframes test1 {
@@ -799,6 +804,7 @@ video:focus {
 #captions[captions-id="CC8"] span:nth-of-type(3) {
 	animation: test2 6000ms 8500ms linear forwards;
 	color: red;
+	top: -80px;
 }
 
 @keyframes test2 {
