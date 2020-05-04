@@ -760,7 +760,59 @@ video:focus {
 	}
 }
 
-#captions[captions-id="CC8"] {
+#captions[captions-id="CC8"] span {
+	opacity: 0;
+}
+
+#captions[captions-id="CC8"] span:nth-of-type(1) {
+	animation: test 3000ms 0ms linear forwards;
+	color: yellow;
+}
+
+@keyframes test {
+	0%,
+	99.999% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+#captions[captions-id="CC8"] span:nth-of-type(2) {
+	animation: test1 5500ms 3000ms linear forwards;
+	color: blue;
+}
+
+@keyframes test1 {
+	0%,
+	99.999% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+#captions[captions-id="CC8"] span:nth-of-type(3) {
+	animation: test2 6000ms 8500ms linear forwards;
+	color: red;
+}
+
+@keyframes test2 {
+	0%,
+	99.999% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+/* #captions[captions-id="CC8"] {
 	animation: motor 15000ms 0ms linear forwards, CC2shake 500ms 8 linear forwards,
 		accelerate-1 500ms 2800ms 10 linear forwards, grow-1 5000ms 2800ms ease-in forwards,
 		accelerate-2 500ms 7800ms 9 linear forwards, grow-2 4500ms 7800ms ease-in forwards,
@@ -801,10 +853,6 @@ video:focus {
 		font-weight: 900;
 	}
 }
-
-/* "@keyframe-1"   55 - 60 */
-/* "@keyframe-2"   60.01 - 64.5 */
-/* "@keyframe-3"   64.501 - 67 */
 
 @keyframes accelerate-3-half {
 	10%,
@@ -923,7 +971,7 @@ video:focus {
 	to {
 		font-size: 40px;
 	}
-}
+} */
 
 #captions[captions-id="CC9"] span {
 	display: block;
