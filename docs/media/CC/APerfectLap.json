@@ -39,25 +39,5 @@
 		"startTime": 80,
 		"endTime": 89,
 		"text": "<span>Wait for it.</span> <span>Wait for it.</span> <span>Now.</span>"
-	}, {
-		"startTime": 94,
-		"endTime": 104,
-		"text": "<span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span>"
-	}, {
-		"startTime": 104,
-		"endTime": 119,
-		"text": "<span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span> <span>Miles!</span>"
-	}, {
-		"startTime": 133,
-		"endTime": 134,
-		"text": "<span>Impressive</span>"
-	}, {
-		"startTime": 135,
-		"endTime": 140,
-		"text": "<span>3:30.6</span> <span>That's another record.</span>"
-	}, {
-		"startTime": 143,
-		"endTime": 146,
-		"text": "It's a perfect lap."
 	}]
 }

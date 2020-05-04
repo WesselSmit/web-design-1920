@@ -1,7 +1,3 @@
-document.querySelector("video").currentTime = 50
-
-
-
 //Variables
 const video = document.querySelector("video")
 const ccContainer = document.getElementById('captions-container')
