@@ -769,45 +769,145 @@ video:focus {
 }
 
 #captions[captions-id="CC8"] span:nth-of-type(1) {
-	animation: test 3000ms 0ms linear forwards;
-	color: yellow;
+	animation: motor0 3000ms 0ms linear forwards, roar0 1000ms 0ms 3 linear forwards;
 }
 
-@keyframes test {
+@keyframes motor0 {
 	0%,
-	99.999% {
+	45% {
 		opacity: 1;
+		font-size: 30px;
+	}
+
+	85% {
+		opacity: 0;
 	}
 
 	100% {
-		opacity: 0;
+		font-size: 20px;
+	}
+}
+
+@keyframes roar0 {
+	10%,
+	90% {
+		transform: translate3d(-1px, 5px, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(2px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-4px, -2px, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(4px, 0, 0);
 	}
 }
 
 #captions[captions-id="CC8"] span:nth-of-type(2) {
-	animation: test1 5500ms 3000ms linear forwards;
-	color: blue;
+	animation: motor1 5500ms 3100ms linear forwards, roar1 900ms 3100ms 1 linear forwards,
+		roar1one 900ms 4000ms 3 linear forwards, roar1two 900ms 6700ms 2 linear forwards;
 	top: -40px;
 }
 
-@keyframes test1 {
-	0%,
-	99.999% {
+@keyframes motor1 {
+	0% {
 		opacity: 1;
+		font-size: 45px;
+	}
+
+	60% {
+		font-size: 40px;
 	}
 
 	100% {
-		opacity: 0;
+		font-size: 30px;
+		opacity: 1;
 	}
 }
 
+@keyframes roar1 {
+	10%,
+	90% {
+		transform: translate3d(-3px, 15px, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(6px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-12px, -6px, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(12px, 0, 0);
+	}
+}
+
+@keyframes roar1one {
+	10%,
+	90% {
+		transform: translate3d(-2px, 10px, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(2px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-8px, -2px, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(8px, 0, 0);
+	}
+}
+
+@keyframes roar1two {
+	10%,
+	90% {
+		transform: translate3d(-1px, 5px, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(1px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-4px, -1px, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(4px, 0, 0);
+	}
+}
+/* 900 2700 1800 */
 #captions[captions-id="CC8"] span:nth-of-type(3) {
-	animation: test2 6000ms 8500ms linear forwards;
-	color: red;
+	animation: motor2 6000ms 8500ms linear forwards;
 	top: -80px;
 }
 
-@keyframes test2 {
+@keyframes motor2 {
 	0%,
 	99.999% {
 		opacity: 1;
