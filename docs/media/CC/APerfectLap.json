@@ -22,7 +22,7 @@
 	}, {
 		"startTime": 27,
 		"endTime": 33,
-		"text": "<span class='radio'>It's the Fords that are the cars to beat,</span> <span class='radio'>claiming the top three positions...</span> <span>[Leo] What the hell is he doing?</span> <span class='radio'>Led by Ken Miles in Ford number 1...</span>"
+		"text": "<span class='radio'>It's the Fords that are the cars to beat,</span> <span class='radio'>claiming the top three positions...</span> <span>What the hell is he doing?</span> <span class='radio'>Led by Ken Miles in Ford number 1...</span>"
 	}, {
 		"startTime": 33,
 		"endTime": 47,
@@ -34,11 +34,11 @@
 	}, {
 		"startTime": 68.4,
 		"endTime": 71,
-		"text": "<span>[Jack] He's going to break his own record.</span> <span>[Franco] Shut up.</span>"
+		"text": "<span>He's going to break his own record.</span> <span>[Franco] Shut up.</span>"
 	}, {
 		"startTime": 80,
 		"endTime": 89,
-		"text": "<span>[Carroll] Wait for it.</span> <span>[Carroll] Wait for it.</span> <span>[Carroll] Now.</span>"
+		"text": "<span>Wait for it.</span> <span>Wait for it.</span> <span>Now.</span>"
 	}, {
 		"startTime": 94,
 		"endTime": 104,
