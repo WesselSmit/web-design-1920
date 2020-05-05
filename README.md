@@ -99,9 +99,14 @@ Uiteindelijk ben ik niet aan alle vragen toegekomen maar dat is niet erg, het is
 
 **tldr; ik kwam erachter dat het slim is om op z'n minst een paar vragen van te voren te bedenken zodat je altijd iets hebt om te vragen, deze vragen dienden voor mij als richtlijnen, het is belangrijk dat er vrijheid is tijdens het testen en dat je kan doorvragen op onderwerpen indien nodig. Dit betekent dat het interview niet van te voren vast kan staan maar dat de voorbereide vragen meer dienen als spreek-onderwerpen/valnet!**
 
-### Reflectie op testen
+### Testen
 
 Het testen met Marie was eigenlijk helemaal niet zo verschillend van testen met horende mensen; vaak had ik niet eens door dat Marie doof was. Wanneer we met Marie aan het testen waren was er altijd op zijn minst 1 tolk (soms 2) aanwezig, het is hierbij belangrijk om te begrijpen dat ze vertalen en dat dat ook alles is wat ze doen. 
 
 We hadden als groep eigenlijk alleen maar concepten/cases waarbij Marie niet echt hoeft te interacteren met haar devices of onze producten. Beide podcasts & films worden geconsumeerd door het aan te zetten en te kijken, Marie zit hierbij eigenlijk alleen maar te kijken naar je concept. Het belangrijke waar je dan probeert achter te komen is of het duidelijk is voor Marie.
 
+### Problemen / moeilijkheden
+
+* Test sessies waren intensief voor Marie, Marie moet de hele tijd "praten" met haar tolk, feedback leveren en letten op het beeld en of haar tolk iets naar haar handgebaard. Uiteindelijk duurde de testrondes 2 - 2.5 uur en was het best wel zwaar voor Marie.
+* Screenshare is enigzins stotterend/loopt niet altijd even vloeiend, dit had als gevolg dat sommige subtiele animaties niet goed zichtbaar waren via screenshare en dus gemist werden.
+* Je moet aanleren om net wat langer te wachten op antwoord want het gesprek gaat via een tussenpersoon (de tolk), dit was achteraf niet echt een probleem maar was wel even wennen.
