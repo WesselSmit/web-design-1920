@@ -54,3 +54,20 @@ Mijn product is op meerdere manieren specifiek gemaakt voor Marie:
 4. Tijdens testronde 3 was ik aan het kijken of Marie mijn radio animatie duidelijk vond, hierbij vertelde Marie me dat ze radio storing/uitzendingen altijd associeert met tv-ruis/sneeuw. Omdat dit een exclusive design hoort te zijn en ik niet de associaties van anderen in het hoofd hoef te houden was dit een no-brainer; ik heb naast de radio animatie ook een tv-ruis animatie erin verwerkt. Op deze manier heb ik een stukje van Marie (Marie's gedachtes) in mijn prototype verwerkt.
 
 ![radio-anim (2)](https://user-images.githubusercontent.com/45405413/81067909-bee8cb00-8edf-11ea-89af-d490993a7463.gif)
+
+### Add Nonsense
+
+Om de emotie & geluid-clues over te brengen die de huidige CC mist heb ik besloten om dmv geanimeerde CC deze over te brengen. Het speelt in op associaties & intuitie om (on)bewust meer informatie over te brengen via Closed Captions!
+
+Zo worden er verschillende fonts, groottes, diktes, tijdspannen, typografieen, opacities, richtingen, trillingen en animaties gebruikt om verschillende factoren duidelijk te maken.
+
+Sommige zijn heel voor de hand liggend; zo is een formule-1 auto die met piepende banden weg rijd eerst groot en schud het de CC. Langzamerhand nemen de effecten af als de auto in de verte verdwijnt en het geluid zachtjes weg fade.
+
+De nonsense in mijn product zit in de animaties, deze zijn soms een tikkeltje uitbundiger dan de geluiden zijn. Dit is voornamelijk gedaan om ervoor te zorgen dat de effecten Marie niet ontgaan en omdat het leuk is.
+
+In plaats van de radio animatie + ruis had ik ook het volgende kunnen doen:
+
+> [radio] IT'S THE FORDS THAT ARE THE CARS TO BEAT
+
+![radio-anim (2)](https://user-images.githubusercontent.com/45405413/81067909-bee8cb00-8edf-11ea-89af-d490993a7463.gif)
+> ^radio animatie
