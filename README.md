@@ -105,6 +105,8 @@ Het testen met Marie was eigenlijk helemaal niet zo verschillend van testen met 
 
 We hadden als groep eigenlijk alleen maar concepten/cases waarbij Marie niet echt hoeft te interacteren met haar devices of onze producten. Beide podcasts & films worden geconsumeerd door het aan te zetten en te kijken, Marie zit hierbij eigenlijk alleen maar te kijken naar je concept. Het belangrijke waar je dan probeert achter te komen is of het duidelijk is voor Marie.
 
+**Het testen voor ons bestond dan ook uit je idee uitleggen (mogelijk uitleggen hoe je hebt geitereerd sinds vorige keer), je concept laten zien & feedback vragen.**
+
 ### Problemen / moeilijkheden
 
 * Test sessies waren intensief voor Marie, Marie moet de hele tijd "praten" met haar tolk, feedback leveren en letten op het beeld en of haar tolk iets naar haar handgebaard. Uiteindelijk duurde de testrondes 2 - 2.5 uur en was het best wel zwaar voor Marie.
@@ -118,3 +120,5 @@ Als ik deze testsessies opnieuw zou moeten doen dan zijn er een paar verandering
      * testsessies 2 & 3 zou ik scheiden in de verschillende cases; op deze manier heb je 2 testsessies van 1 - 1.5 uur, dit zorgt ervoor dat Marie wat rustiger aan kan doen en dat als je als tester niks aan de tests van de andere case hebt dan hoef je er niet bij te zijn. Als studenten wel geinteresserd zijn in de tests van de andere case-groep dan kunnen ze gemute joinen en alleen observeren.
 * Ik zou kijken of er een programma is waarmee de screenshare beter is, misschien discord of een andere service die meer gericht is op beeld-streamen
 * Ervoor zorgen dat ik vragen heb voorbereid voor de testsessies 
+
+### 
