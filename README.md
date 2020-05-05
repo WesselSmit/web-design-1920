@@ -130,9 +130,8 @@ Ik heb mijn eigen design-[principles](https://github.com/WesselSmit/web-design-1
 
 ## User needs begrijpen en gebruiken in je ontwerp.
 
-
+Samen met mijn mede-groepgenoten heb ik in de laatste weken geprobeerd de wensen van Marie te leren kennen, uiteindelijk heb ik hier zelf een [eisenlijst](https://github.com/WesselSmit/web-design-1920/wiki/Eisenlijst) van gemaakt, gepaard met de [principes](https://github.com/WesselSmit/web-design-1920/wiki/Goede-CC-Principes) heb ik een lijst met wensen waar het product aan moet voldoen. Sommige needs zijn erg concreet en kan je makkelijk toepassen, andere zijn abstracter en meer gebonden aan Marie; hierbij moest ik tijdens het testen goed kijken of ze nog aansloten op Marie.
 
 ## Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp.
 
-
-
+Bij het testen kwam ik erachter dat het beter werkt om wat voor te bereiden, in het begin was ik bang dat dit de test te gesloten/vast zou opstellen, dat er een geforceerd gesprek zou plaatsvinden en dat er geen ruimte was om nieuwe wegen in te slaan wanneer de test eenmaal bezig was. Toen ik bij testronde 2 echter niet genoeg feedback van Marie had om op in te gaan kwam ik erachter dat het beter was geweest om iets voor bereid te hebben zodat ik daar op terug kon vallen. Uiteindelijk denk ik dat de beste strategie is om vragen voor te bereiden en ze als topics te gebruiken tijdens de test. Mocht er iets interessants omhoog komen tijdens de test kan je van de vragen afdwalen om verder te vragen op dat onderwerp. Ik heb ook gehoord dat anderen in mijn groepje een soortgelijke aanpak hebben waarbij ze 3 vragen bedenken als reddingsnet en on-the-fly meer kunnen bedenken en een gesprek kunnen voeren met de testpersoon.
