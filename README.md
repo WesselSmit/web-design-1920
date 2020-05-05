@@ -18,9 +18,9 @@ Marie kijkt tv met Closed Captions om het dialoog en alle belangrijke geluidseff
 
 Marie is Doof; dit betekent dat ze niet kan horen, haar moedertaal is Nederlandse gebarentaal maar ze kan ook Nederlands & Engels lezen. Marie wil films kijken zonder geluid en alsnog alle emotie, geluidseffecten & clue's ervaren / begrijpen. Het is hierbij erg belangrijk dat het ter alle tijden duidelijk is wie er praat en dat de CC synchroon lopen met de audio/monden.
 
-## Exclusive Design 
+# Exclusive Design 
 
-### [Study Situation](https://github.com/WesselSmit/web-design-1920/wiki/Study-Situation)
+## [Study Situation](https://github.com/WesselSmit/web-design-1920/wiki/Study-Situation)
 
 Marie komt voornamelijk in aanraking met Closed Captions wanneer ze een film of serie kijkt, dit gebeurt vaak thuis op haar laptop, ipad of televisie.
 
@@ -31,7 +31,7 @@ Het voornaamste probleem met CC is dat het niet alle emoties kan overbrengen, ma
 
 >Voor meer problemen, zie [Study Situation](https://github.com/WesselSmit/web-design-1920/wiki/Study-Situation)
 
-### Ignore Conventions
+## Ignore Conventions
 
 Om te voorkomen dat we als designers voor designers designen moeten we de doelgroep voor wie we designen bij het proces betrekken. Om dit te doen heb ik een lijst gemaakt na [testronde 1](https://github.com/WesselSmit/web-design-1920/wiki/Testronde-1) met [mijn eigen conventies](https://github.com/WesselSmit/web-design-1920/wiki/Goede-CC-Principes).
 
@@ -41,7 +41,7 @@ Je kan mijn conventies [hier](https://github.com/WesselSmit/web-design-1920/wiki
 
 Een groot gedeelte van [deze conventies](https://github.com/WesselSmit/web-design-1920/wiki/Goede-CC-Principes) zijn gebaseerd op principes die ik heb gevonden in de film **Scott Pilgrim vs The World**, deze film werd mij als goed voorbeeld aangeraden door Marie juist omdat het zo audio zo goed uitdrukte in visuele clues.
 
-### Prioritise Identity
+## Prioritise Identity
 
 Mijn product is op meerdere manieren specifiek gemaakt voor Marie:
 
@@ -55,7 +55,7 @@ Mijn product is op meerdere manieren specifiek gemaakt voor Marie:
 
 ![radio-anim (2)](https://user-images.githubusercontent.com/45405413/81067909-bee8cb00-8edf-11ea-89af-d490993a7463.gif)
 
-### Add Nonsense
+## Add Nonsense
 
 Om de emotie & geluid-clues over te brengen die de huidige CC mist heb ik besloten om dmv geanimeerde CC deze over te brengen. Het speelt in op associaties & intuitie om (on)bewust meer informatie over te brengen via Closed Captions!
 
@@ -72,14 +72,14 @@ In plaats van de radio animatie + ruis had ik ook het volgende kunnen doen:
 ![radio-anim (2)](https://user-images.githubusercontent.com/45405413/81067909-bee8cb00-8edf-11ea-89af-d490993a7463.gif)
 > ^radio animatie
 
-## Testen
+# Testen
 
 Tijdens dit vak hebben we 3x de kans gekregen om ons product te testen met Marie, hier zijn de links van de volledige verslagen:
 * [test 1](https://github.com/WesselSmit/web-design-1920/wiki/Testronde-1)
 * [test 2](https://github.com/WesselSmit/web-design-1920/wiki/Testronde-2)
 * [test 3](https://github.com/WesselSmit/web-design-1920/wiki/Testronde-3)
 
-### Mijn aanpak voor het testen
+## Mijn aanpak voor het testen
 
 Ik ben van test-methode verandert tussen test 2-3, dit had te maken met dat ik er tijdens testronde 2 achter kwam dat ik er een stuk meer uit had kunnen halen.
 
@@ -103,22 +103,36 @@ Uiteindelijk ben ik niet aan alle vragen toegekomen maar dat is niet erg, het is
 
 Het testen met Marie was eigenlijk helemaal niet zo verschillend van testen met horende mensen; vaak had ik niet eens door dat Marie doof was. Wanneer we met Marie aan het testen waren was er altijd op zijn minst 1 tolk (soms 2) aanwezig, het is hierbij belangrijk om te begrijpen dat ze vertalen en dat dat ook alles is wat ze doen. 
 
-We hadden als groep eigenlijk alleen maar concepten/cases waarbij Marie niet echt hoeft te interacteren met haar devices of onze producten. Beide podcasts & films worden geconsumeerd door het aan te zetten en te kijken, Marie zit hierbij eigenlijk alleen maar te kijken naar je concept. Het belangrijke waar je dan probeert achter te komen is of het duidelijk is voor Marie.
+We hadden als groep eigenlijk alleen maar concepten/cases waarbij Marie niet echt hoeft te interacteren met haar devices of onze producten. Beide podcasts & films worden geconsumeerd door het aan te zetten en te kijken, Marie zit hierbij eigenlijk alleen maar te kijken naar je concept. Het belangrijke waar je dan probeert achter te komen is of het duidelijk is voor Marie. Er was dus geen sprake van hindering omdat we niet konden zien hoe Marie interacteerd met het product.
 
-**Het testen voor ons bestond dan ook uit je idee uitleggen (mogelijk uitleggen hoe je hebt geitereerd sinds vorige keer), je concept laten zien & feedback vragen.**
+Het testen voor ons bestond dan ook uit je idee uitleggen (mogelijk uitleggen hoe je hebt geitereerd sinds vorige keer), je concept laten zien & feedback vragen. Het laten zien van je product gebeurde via screenshare, dit kon soms wel slecht te zien zijn omdat het beeld dan haperde of iets dergelijks.
 
-### Problemen / moeilijkheden
+Het testen verliep erg soepel; Marie kan erg goed feedback geven en haar gevoelens uiten wat het voor ons ook weer wat makkelijker maakt.
+
+## Problemen / moeilijkheden
 
 * Test sessies waren intensief voor Marie, Marie moet de hele tijd "praten" met haar tolk, feedback leveren en letten op het beeld en of haar tolk iets naar haar handgebaard. Uiteindelijk duurde de testrondes 2 - 2.5 uur en was het best wel zwaar voor Marie.
 * Screenshare is enigzins stotterend/loopt niet altijd even vloeiend, dit had als gevolg dat sommige subtiele animaties niet goed zichtbaar waren via screenshare en dus gemist werden.
 * Je moet aanleren om net wat langer te wachten op antwoord want het gesprek gaat via een tussenpersoon (de tolk), dit was achteraf niet echt een probleem maar was wel even wennen.
 
-### Wat ik volgende keer anders zou doen
+## Wat ik volgende keer anders zou doen
 
 Als ik deze testsessies opnieuw zou moeten doen dan zijn er een paar veranderingen die ik zou doorvoeren:
-* Ik zou testsessie 1 gezamelijk doen voor alle cases bij dezelfde testpersoon
-     * testsessies 2 & 3 zou ik scheiden in de verschillende cases; op deze manier heb je 2 testsessies van 1 - 1.5 uur, dit zorgt ervoor dat Marie wat rustiger aan kan doen en dat als je als tester niks aan de tests van de andere case hebt dan hoef je er niet bij te zijn. Als studenten wel geinteresserd zijn in de tests van de andere case-groep dan kunnen ze gemute joinen en alleen observeren.
+* Ik zou testsessie 1 gezamelijk doen voor alle cases bij dezelfde testpersoon, testsessies 2 & 3 zou ik scheiden in de verschillende cases; op deze manier heb je 2 testsessies van 1 - 1.5 uur, dit zorgt ervoor dat Marie wat rustiger aan kan doen en dat als je als tester niks aan de tests van de andere case hebt dan hoef je er niet bij te zijn. Als studenten wel geinteresserd zijn in de tests van de andere case-groep dan kunnen ze gemute joinen en alleen observeren.
 * Ik zou kijken of er een programma is waarmee de screenshare beter is, misschien discord of een andere service die meer gericht is op beeld-streamen
 * Ervoor zorgen dat ik vragen heb voorbereid voor de testsessies 
 
-### 
+# Leerdoelen
+
+## Leren hoe je (design) principles in een ontwerp kan toepassen.
+
+Ik heb mijn eigen design-[principles](https://github.com/WesselSmit/web-design-1920/wiki/Goede-CC-Principes) bedacht en toegepast specifiek aan Marie en de bijhorende opdracht. Deze principes zijn gebaseerd op observaties & wensen van Marie. Deze principes heb ik gebruikt om mijn concept te verzinnen en consistent te houden. Ze dienen als richtlijnen (bijna regels) die aangehouden moeten worden om voor Marie te kunnen designen.
+
+## User needs begrijpen en gebruiken in je ontwerp.
+
+
+
+## Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp.
+
+
+
