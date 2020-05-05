@@ -71,3 +71,28 @@ In plaats van de radio animatie + ruis had ik ook het volgende kunnen doen:
 
 ![radio-anim (2)](https://user-images.githubusercontent.com/45405413/81067909-bee8cb00-8edf-11ea-89af-d490993a7463.gif)
 > ^radio animatie
+
+## Testen
+
+Tijdens dit vak hebben we 3x de kans gekregen om ons product te testen met Marie, hier zijn de links van de volledige verslagen:
+* [test 1](https://github.com/WesselSmit/web-design-1920/wiki/Testronde-1)
+* [test 2](https://github.com/WesselSmit/web-design-1920/wiki/Testronde-2)
+* [test 3](https://github.com/WesselSmit/web-design-1920/wiki/Testronde-3)
+
+### Mijn aanpakken voor het testen
+
+Ik ben van test-methode verandert tussen test 2-3, dit had te maken met dat ik er tijdens testronde 2 achter kwam dat ik er een stuk meer uit had kunnen halen.
+
+Testronde 1 was meteen 4 uur nadat we waren begonnen aan de opdracht, het was eigenlijk bedoeld als kennismakings test maar velen (waaronder ik) hadden ook al een klein prototype gemaakt omdat we al een idee hadden over een concept. 
+
+![WDprototype1](https://user-images.githubusercontent.com/45405413/78898416-0e201500-7a74-11ea-843f-18a81519cd19.gif)
+
+Het testen bestond voornamelijk uit Marie leren kennen, ontdekken waar de problemen liggen, wat de wensen zijn en ons concept pitchen en kijken wat Marie er van vond.
+
+Bij testronde 2 had ik al een prototype om te kunnen testen, van te voren had ik niet echt concrete punten of vragen voor Marie, ik wilde meer zien hoe ze reageerde en daar vervolgens op in springen. Dit werkte niet echt goed omdat Marie enthusiast was over mijn prototype en niet veel aan te merken had op wat ik had gemaakt, met als resultaat dat ik met mond vol tanden stond.
+
+Uiteindelijk heb ik doorgevraagd op een paar kleine opmerkingen maar ook dit leverde vrij weinig op, dit betekent niet dat de testronde voor niks was. In tegendeel; ik had een heleboel waardevolle observaties en informatie verzamelt van de anderen en hun concepten (veel van hun feedback was ook voor mij van toepassing).
+
+Ook merkte ik hierdoor dat ik testronde 3 anders moest aanpakken; voor testronde 3 had ik een stuk of 10 vragen verzonnen, het hoge aantal vragen had te maken met dat een groot gedeelte van de vragen al in voorgaande tests met klasgenoten naar boven kwamen en ik niet wilde dat ik eindigde zonder vragen wanneer het mijn beurt was. 
+
+Uiteindelijk ben ik niet aan alle vragen toegekomen maar dat is niet erg, het is belangrijk dat je de tijd neemt om door te vragen als je iets belangrijks ontdekt en dat niet je volledige test al vast staat voordat je daadwerkelijk aan het testen bent. De vragen dienden voor mij als richtlijnen en als valnet, het is niet de noodzaak om ze te gebruiken maar meer een doel om als reminders te dienen en ervoor te zorgen dat ik in het slechste geval iets uit het gesprek kan halen.
