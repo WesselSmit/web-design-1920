@@ -79,7 +79,7 @@ Tijdens dit vak hebben we 3x de kans gekregen om ons product te testen met Marie
 * [test 2](https://github.com/WesselSmit/web-design-1920/wiki/Testronde-2)
 * [test 3](https://github.com/WesselSmit/web-design-1920/wiki/Testronde-3)
 
-### Mijn aanpakken voor het testen
+### Mijn aanpak voor het testen
 
 Ik ben van test-methode verandert tussen test 2-3, dit had te maken met dat ik er tijdens testronde 2 achter kwam dat ik er een stuk meer uit had kunnen halen.
 
@@ -110,3 +110,11 @@ We hadden als groep eigenlijk alleen maar concepten/cases waarbij Marie niet ech
 * Test sessies waren intensief voor Marie, Marie moet de hele tijd "praten" met haar tolk, feedback leveren en letten op het beeld en of haar tolk iets naar haar handgebaard. Uiteindelijk duurde de testrondes 2 - 2.5 uur en was het best wel zwaar voor Marie.
 * Screenshare is enigzins stotterend/loopt niet altijd even vloeiend, dit had als gevolg dat sommige subtiele animaties niet goed zichtbaar waren via screenshare en dus gemist werden.
 * Je moet aanleren om net wat langer te wachten op antwoord want het gesprek gaat via een tussenpersoon (de tolk), dit was achteraf niet echt een probleem maar was wel even wennen.
+
+### Wat ik volgende keer anders zou doen
+
+Als ik deze testsessies opnieuw zou moeten doen dan zijn er een paar veranderingen die ik zou doorvoeren:
+* Ik zou testsessie 1 gezamelijk doen voor alle cases bij dezelfde testpersoon
+     * testsessies 2 & 3 zou ik scheiden in de verschillende cases; op deze manier heb je 2 testsessies van 1 - 1.5 uur, dit zorgt ervoor dat Marie wat rustiger aan kan doen en dat als je als tester niks aan de tests van de andere case hebt dan hoef je er niet bij te zijn. Als studenten wel geinteresserd zijn in de tests van de andere case-groep dan kunnen ze gemute joinen en alleen observeren.
+* Ik zou kijken of er een programma is waarmee de screenshare beter is, misschien discord of een andere service die meer gericht is op beeld-streamen
+* Ervoor zorgen dat ik vragen heb voorbereid voor de testsessies 
