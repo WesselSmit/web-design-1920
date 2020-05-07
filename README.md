@@ -16,7 +16,13 @@ Marie kijkt tv met Closed Captions om het dialoog en alle belangrijke geluidseff
 
 ## User Scenario
 
-Marie is Doof; dit betekent dat ze niet kan horen, haar moedertaal is Nederlandse gebarentaal maar ze kan ook Nederlands & Engels lezen. Marie wil films kijken zonder geluid en alsnog alle emotie, geluidseffecten & clue's ervaren / begrijpen. Het is hierbij erg belangrijk dat het ter alle tijden duidelijk is wie er praat en dat de CC synchroon lopen met de audio/monden.
+Marie is Doof; dit betekent dat ze niet kan horen, haar moedertaal is Nederlandse gebarentaal maar ze kan ook Nederlands & Engels lezen. Marie wil films kijken (zonder geluid) en alsnog alle emotie, geluidseffecten & clue's ervaren / begrijpen omdat zonder deze emotie films soms moeilijk te volgen kunnen zijn of zelfs helemaal niet meer leuk zijn om te kijken. Het is hierbij erg belangrijk dat het ter alle tijden duidelijk is wie er praat en dat de CC synchroon lopen met de audio/monden omdat asynchrone CC juist afleidend en storend is.
+
+# Concept 
+
+Het probleem met huidige CC is dat het eigenlijk maar gericht is op een ding, namelijk: aangeven dat een geluid hoorbaar is. Dit is een waardevolle toepassing maar ook heel beperkt; zoals iedereen weet is comunicatie niet alleen iets zeggen, maar komen er ook andere factoren bij kijken: gezichtsuitdrukking, intonatie, stem hoogte, context, emotie, sarcasme en nog veel meer! Deze informatie mist in de huidige CC en kan het moeilijk maken voor Marie om alles te volgen, uiteindelijk is Marie soms meer catch-up aan het spelen omt e volgen wat er gebeurt dan daadwerkelijk van de film te genieten!
+
+Door middel van CC te animeren geef ik clues over de audio. Dit zijn vaak intuitive aanwijzingen waardoor Marie beter begrijpt hoe iets geinterpreteerd moet worden, wat er bedoeld word of wat er uberhaupt gebeurt. Voorbeelden hiervan is de lengte hoelang de CC in beeld is; dit geeft aan hoelang het geluid hoorbaar is, vibratie geeft aan hoe diep/laag een geluid is; hier kan Marie aan relateren omdat ze weet wat het betekent als ze vibratie voelt in haar lichaam wanneer er een auto ddichtbij hard langs rijd. Ook zijn er abstractere animaties gebruikt om te relateren aan associaties en connecties die Marie heeft/zelf maakt.
 
 # Exclusive Design 
 
@@ -107,13 +113,14 @@ We hadden als groep eigenlijk alleen maar concepten/cases waarbij Marie niet ech
 
 Het testen voor ons bestond dan ook uit je idee uitleggen (mogelijk uitleggen hoe je hebt geitereerd sinds vorige keer), je concept laten zien & feedback vragen. Het laten zien van je product gebeurde via screenshare, dit kon soms wel slecht te zien zijn omdat het beeld dan haperde of iets dergelijks.
 
-Het testen verliep erg soepel; Marie kan erg goed feedback geven en haar gevoelens uiten wat het voor ons ook weer wat makkelijker maakt.
+Het testen verliep erg soepel; Marie kan erg goed feedback geven en haar gevoelens uiten wat het voor ons ook weer wat makkelijker maakt. Alhoewel ik denk dat we wegens corona-related omstandigheden minder uit de test hebben gehaald dan wanneer we in pesoon konden testen is het alsnog erg goed gegaan.
 
 ## Problemen / moeilijkheden
 
 * Test sessies waren intensief voor Marie, Marie moet de hele tijd "praten" met haar tolk, feedback leveren en letten op het beeld en of haar tolk iets naar haar handgebaard. Uiteindelijk duurde de testrondes 2 - 2.5 uur en was het best wel zwaar voor Marie.
 * Screenshare is enigzins stotterend/loopt niet altijd even vloeiend, dit had als gevolg dat sommige subtiele animaties niet goed zichtbaar waren via screenshare en dus gemist werden.
 * Je moet aanleren om net wat langer te wachten op antwoord want het gesprek gaat via een tussenpersoon (de tolk), dit was achteraf niet echt een probleem maar was wel even wennen.
+* Een prototype maken voor mijn concept is een tijdrovend proces en duurt lang voor een kort prototype.
 
 ## Wat ik volgende keer anders zou doen
 
@@ -121,6 +128,9 @@ Als ik deze testsessies opnieuw zou moeten doen dan zijn er een paar verandering
 * Ik zou testsessie 1 gezamelijk doen voor alle cases bij dezelfde testpersoon, testsessies 2 & 3 zou ik scheiden in de verschillende cases; op deze manier heb je 2 testsessies van 1 - 1.5 uur, dit zorgt ervoor dat Marie wat rustiger aan kan doen en dat als je als tester niks aan de tests van de andere case hebt dan hoef je er niet bij te zijn. Als studenten wel geinteresserd zijn in de tests van de andere case-groep dan kunnen ze gemute joinen en alleen observeren.
 * Ik zou kijken of er een programma is waarmee de screenshare beter is, misschien discord of een andere service die meer gericht is op beeld-streamen
 * Ervoor zorgen dat ik vragen heb voorbereid voor de testsessies 
+* Het is het zeker waard om me op z'n minst te verdiepen in code alternatieven of om een efficientere werkwijze te vinden voor animaties maken in CSS (misschien keyframes.io gebruiken of iets dergelijks), misschien zijn After Effects of photoshop hier beter voor geschikt.
+
+Als de tests niet door coronavirus vanuit huis hoeven was ik in persoon met Marie gaan testen omdat dit toch kan helpen met kleine interacties/dingen die je misschien onbewust opvallen wanneer je er bij zit, via een computerscherm gaat tenslotte een hoop detail verloren.
 
 # Leerdoelen
 
