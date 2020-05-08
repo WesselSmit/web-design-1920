@@ -8,6 +8,11 @@ Voor dit vak moesten we een app maken voor iemand met een beperking. Al mijn ond
 * [Concept](https://github.com/WesselSmit/web-design-1920/#Concept)
      * [Problemen](https://github.com/WesselSmit/web-design-1920/#Problemen-met-huidige-CC)
      * [Oplossing](https://github.com/WesselSmit/web-design-1920/#Oplossing)
+* [Exclusive Design](https://github.com/WesselSmit/web-design-1920/#Exclusive-Design)
+     * [Study Situation](https://github.com/WesselSmit/web-design-1920/#Study-Situation)
+     * [Ignore Conventions](https://github.com/WesselSmit/web-design-1920/#Ignore-Conventions)
+     * [Prioritise Identity](https://github.com/WesselSmit/web-design-1920/#Prioritise-Identity)
+     * [Add Nonsense](https://github.com/WesselSmit/web-design-1920/#Add-Nonsense)
 
 # Marie van Driessche
 
@@ -36,4 +41,69 @@ De bovenstaande problemen ontnemen plezier voor doven door het moeilijker te mak
 ## Oplossing
 
 Mijn oplossing om er voor te zorgen dat Marie niet (het gevoel heeft dat ze) iets mist is door deze audio clues ook visueel weer te geven. Dit gebeurt in meerdere vormen (o.a. vormgeving en animaties) en hierbij probeer ik in te spelen op intuitie en de persoonlijke connecties/associaties van Marie.
+
+# Exclusive Design
+
+## Study Situation
+
+>In order to become specialist designers for all kinds of people with all kinds of disabilities we have to study different, individual situations.
+
+Marie komt voornamelijk in aanraking met Closed Captions wanneer ze een film of serie kijkt, dit gebeurt vaak thuis op haar laptop, ipad of televisie.
+
+Het voornaamste probleem met CC is dat het niet alle emoties & clues kan overbrengen, maar er komen ook nog andere problemen bij kijken:
+* CC gebruikt soms audio-omschrijvingen, zo staat er soms in films "spannende muziek" maar als je nooit muziek hoort dan weet je ook niet wanneer muziek spannend is OF hoe muziek überhaupt klinkt
+* Het is heel makkelijk om te missen wie er aan het praten is omdat soms de persoon buiten beeld is of je simpelweg iemands mond niet zag bewegen.
+* Humor meekrijgen kan moeilijk zijn, bijv; sarcasme kan je makkelijker ontglippen omdat je geen toonhoogte/toon kan horen.
+
+> Zie ook [Study Situation](https://github.com/WesselSmit/web-design-1920/wiki/Study-Situation) in mijn wiki
+
+## Ignore Conventions
+
+>The current conventions are designed by, and thus for, designers. Not all of these conventions work for non-designers. If we want to include non-designers, and especially people with disabilities, we should reconsider these conventions, after we studied their situations.
+
+Om te voorkomen dat we als designers voor designers designen moeten we de doelgroep voor wie we designen bij het proces betrekken. Om dit te doen heb ik een lijst gemaakt na [testronde 1](https://github.com/WesselSmit/web-design-1920/wiki/Testronde-1) met [mijn eigen conventies](https://github.com/WesselSmit/web-design-1920/wiki/Goede-CC-Principes).
+
+Door de standaard conventies uit het raam te gooien en een eigen lijst samen te stellen puur gebaseerd op de bevindingen en problemen uit de tests met Marie kan ik gerichter en directer te werk gaan. Dit zorgt ervoor dat mijn product gemaakt is voor Marie met Marie.
+
+Je kan mijn conventies [hier](https://github.com/WesselSmit/web-design-1920/wiki/Goede-CC-Principes) lezen.
+
+Een groot gedeelte van [deze conventies](https://github.com/WesselSmit/web-design-1920/wiki/Goede-CC-Principes) zijn gebaseerd op principes die ik heb gevonden in de film **Scott Pilgrim vs The World**, deze film werd mij als goed voorbeeld aangeraden door Marie juist omdat het zo audio zo goed uitdrukte in visuele clues.
+
+## Prioritise Identity 
+
+> We have been designing things for the web with an ability bias for ages now. Which means that the identity of digital designers is very well represented— or even over-represented. The identity of people who have been excluded has of course been ignored. Inluding excluded people into our design process, by seeing them as co-designers rather than study objects, can help in coming up with new, and relevant, conventions.
+
+Mijn product is op meerdere manieren specifiek gemaakt voor Marie:
+
+1. Het is gebaseerd om de problemen die Marie noemde tijdens testronde 1, deze problemen en frustraties heb ik gebruikt om een [eisen-lijst](https://github.com/WesselSmit/web-design-1920/wiki/Eisenlijst) samen te stellen.
+
+2. Vervolgens heb ik de film gekeken die Marie een goed voorbeeld vond van closed captions, aan de hand van deze film en de [eisen-lijst](https://github.com/WesselSmit/web-design-1920/wiki/Eisenlijst) heb ik een lijst met [conventies](https://github.com/WesselSmit/web-design-1920/wiki/Goede-CC-Principes) samengesteld.
+
+3. Vervolgens heb ik gewerkt aan mijn product, dit is 3x met Marie getest. De feedback die ik hierbij ontvangen heb heb ik allemaal verwerkt in het prototype, dit gaf mij de mogelijkheid om heel gericht kleine veranderingen te kunnen maken en het meer een persoonlijke oplossing voor Marie te maken dan voor alle doven in het algemeen.
+
+4. Tijdens testronde 3 was ik aan het kijken of Marie mijn radio animatie duidelijk vond, hierbij vertelde Marie me dat ze radio storing/uitzendingen altijd associeert met tv-ruis/sneeuw. Omdat dit een exclusive design hoort te zijn en ik niet de associaties van anderen in het hoofd hoef te houden was dit een no-brainer; ik heb naast de radio animatie ook de tv-ruis animatie erin verwerkt. Op deze manier heb ik een stukje van Marie (Marie's gedachtes) in mijn prototype verwerkt.
+
+![radio-animation)](https://user-images.githubusercontent.com/45405413/81067909-bee8cb00-8edf-11ea-89af-d490993a7463.gif)
+
+^ Final radio animation version (with tv-static/grain & text-transmission animation)
+
+## Add Nonsense 
+
+> Designing websites for people with disabilities is in large part uncharted territory. Nonsense can be a useful tool to investigate the unkown. And it’s fun.
+
+Om emotie & audio-clues over te brengen in CC heb ik de CC geanimeerd. Het speelt in op associaties & intuitie om (on)bewust meer informatie over te brengen via Closed Captions!
+
+Zo worden er verschillende fonts, groottes, diktes, tijdspannen, typografieen, opacities, richtingen, trillingen en animaties gebruikt om verschillende factoren duidelijk te maken.
+
+Sommige zijn heel voor de hand liggend; zo is een formule-1 auto die met piepende banden weg rijd eerst groot en schud het de CC. Langzamerhand nemen de effecten af als de auto in de verte verdwijnt en het geluid zachtjes weg fade.
+
+De nonsense in mijn product zit in de animaties, deze zijn soms een tikkeltje uitbundiger dan de geluiden hoorbaar voor ons zijn. Dit is voornamelijk gedaan om ervoor te zorgen dat de effecten Marie niet ontgaan en omdat het leuk is. 
+
+De nonsense zit dus in de animaties, zo he. ik nu de onderstaande radio animatie:
+
+![radio-animation](https://user-images.githubusercontent.com/45405413/81067909-bee8cb00-8edf-11ea-89af-d490993a7463.gif)
+
+Maar ik had het niet zo uitbundig hoeven doen, ik had ook het de volgende kunnen doen:
+
+> [radio] IT'S THE FORDS THAT ARE THE CARS TO BEAT
 
