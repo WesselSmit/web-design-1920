@@ -19,9 +19,9 @@ Voor dit vak moesten we een app maken voor iemand met een beperking. Al mijn ond
      * [Week 2](https://github.com/WesselSmit/web-design-1920/#Week-2)
      * [Week 3](https://github.com/WesselSmit/web-design-1920/#Week-3)
 * [Test Reflectie](https://github.com/WesselSmit/web-design-1920/#Test-Reflectie)
-     * [Beste Testopzet](https://github.com/WesselSmit/web-design-1920/#Wat-was-de-beste-testopzet?)
-     * [Problemen](https://github.com/WesselSmit/web-design-1920/#Welke-problemen-waren-er?)
-     * [Volgende Keer](https://github.com/WesselSmit/web-design-1920/#Wat-zou-ik-de-volgende-keer-anders-doen?)
+     * [Beste Testopzet](https://github.com/WesselSmit/web-design-1920/#Wat-was-de-beste-testopzet)
+     * [Problemen](https://github.com/WesselSmit/web-design-1920/#Welke-problemen-waren-er)
+     * [Volgende Keer](https://github.com/WesselSmit/web-design-1920/#Wat-zou-ik-de-volgende-keer-anders-doen)
 
 
 
