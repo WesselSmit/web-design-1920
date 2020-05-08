@@ -18,6 +18,11 @@ Voor dit vak moesten we een app maken voor iemand met een beperking. Al mijn ond
      * [Week 1](https://github.com/WesselSmit/web-design-1920/#Week-1)
      * [Week 2](https://github.com/WesselSmit/web-design-1920/#Week-2)
      * [Week 3](https://github.com/WesselSmit/web-design-1920/#Week-3)
+* [Test Reflectie](https://github.com/WesselSmit/web-design-1920/#Test-Reflectie)
+     * [Beste Testopzet](https://github.com/WesselSmit/web-design-1920/#Beste-Testopzet)
+     * [Problemen](https://github.com/WesselSmit/web-design-1920/#Problemen)
+     * [Volgende Keer](https://github.com/WesselSmit/web-design-1920/#Volgende-Keer)
+
 
 
 # Marie van Driessche
@@ -196,3 +201,27 @@ IK heb een aantal iteraties gemaakt aan de hand van de feedback:
 * radio animatie uitgebreid door een tv-ruis/static background erin te verwerken
 * de lange animatie heb ik uitbundiger gemaakt (deze was te subtiel)
 * er stond ergens in de CC "2x" omdat iemand iets een 2e keer zei, maar Marie interpreteerde dit alsof het **nog** 2 extra keren werd gezegd, dit is er dus uitgehaald 
+
+# Test Reflectie
+
+## Wat was de beste testopzet?
+
+De beste testopzet was testopzet 3; het voorbereiden van vragen is erg waardevol, zelfs als je ze uiteindelijk niet stelt. Ze kunnen functioneren als reminders over topics waar je over wilt praten, ook kunnen ze functioneren als vangnet mocht je een blackout hebben of als het gesprek niet verloopt zoals je verwacht. Ik denk dat het slim is om van te voren meer vragen te bedenken dan je nodig hebt, liever te veel dan te weinig en er is altijd nog de kans aanwezig dat sommige vragen al gesteld worden door anderen.
+
+De test omstandigheden waren niet ideaal, wegens corona zitten we allemaal thuis en moet het testen digitaal. Ik denk dat we ondanks dit toch heel veel waarde uit onze testen hebben gehaald en dat het ons niet super erg beinvloed heeft. Screenshare kon wel problematisch zijn en als ik vaker had moeten testen had ik waarschijnlijk alternatieven uitgeprobeerd zoals discord (voor betere stream quality) of Marie de link naar het prototype geven en haar zelf de video af te laten spelen.
+
+## Welke problemen waren er?
+
+1. Via screenshare gaat de qbeeld-kwaliteit naar beneden en kan het beeld soms niet vloeiend of zelfs haperend lopen. Dit kan als resultaat hebben dat concepten die veel animaities gebruiken (zoals de mijne) minder duidelijk over komen of zelfs gehele animaties gemist worden.
+
+2. De testsessies duurde erg lang en voor Marie was dit erg vermoeiend; zo moet Marie constant met haar tolk communiceren, feedback verzinnen en geven, kijken naar onze prototypes en al in al vergt dit best wat. Ook duurde de testsessies 1.5 - 2.5 uur, dit was ook voor de tolken erg intensief. 
+
+3. Een prototype maken is erg tijdrovend als het animation-based is, er zit veel tijd in animaties maken en je krijgt er een paar geanimeerde-secondes voor terug. Coderen is dan ook niet de beste manier om te animeren. 
+
+## Wat zou ik de volgende keer anders doen?
+
+1. Ik zou me verdiepen in streaming-alternatieven zoals bijvoorbeeld discord (meer streaming gefocust en hopelijk betere kwaliteit) of ik zou Marie de link geven naar het prototype en haar screenshare aan laten zetten om te kunnen zien naar wat ze aan het kijken is, dit betekent wel een hoop controle van het gesprek weggeven aan Marie. Op deze manieren kan ze de animaties beter bekijken. 
+
+2. Ik denk dat het bij  testronde 1 voor iedereen waardevol was om bij elkaar mee te kijken, zelfs al hadden sommigen anders cases, er werden tenslotte allemaal vragen gesteld aan Marie die ook voor anderen van toepassing waren. Als ik de testopzets zou mogen bedenken dan zou ik de testsessies in tweeen delen; 1 voor de podcasts & 1 voor de CC. Op deze manier zijn de testsessies minder lang (fijn voor Marie en studenten) en kan Marie tussen de testsessies rusten (ik zou de testsessies over 2 dagen verdelen). Voor studenten die niet bij de andere case willen zitten is er meer tijd om aan hun prototype te werken, mocht een student wel allebei de testsessies willen bijwonen dan kunnen ze gemute altijd meeluisteren en observeren.  
+
+3. Wellicht was het waardevoller geweest om te animeren in software zoals After Effects, als dit sneller en handiger kan is het waard om te kijken of dit niet een betere workflow is.
