@@ -13,6 +13,7 @@ Voor dit vak moesten we een app maken voor iemand met een beperking. Al mijn ond
      * [Ignore Conventions](https://github.com/WesselSmit/web-design-1920/#Ignore-Conventions)
      * [Prioritise Identity](https://github.com/WesselSmit/web-design-1920/#Prioritise-Identity)
      * [Add Nonsense](https://github.com/WesselSmit/web-design-1920/#Add-Nonsense)
+* [User Scenario](https://github.com/WesselSmit/web-design-1920/#User-Scenario)
 
 # Marie van Driessche
 
@@ -107,3 +108,12 @@ Maar ik had het niet zo uitbundig hoeven doen, ik had ook het de volgende kunnen
 
 > [radio] IT'S THE FORDS THAT ARE THE CARS TO BEAT
 
+# User Scenario
+
+Marie is Doof, dit betekent dat ze doof geboren is en dat haar moedertaal Nederlandse gebarentaal is, verder kan ze Nederlands & Engels lezen. Ze werkt als Interaction Designer bij VPRO, hier denkt ze veel na over hoe je websites kan opzetten. 
+
+Marie wil films kunnen kijken zonder constant het gevoel te hebben dat ze emotie of clues mist, ze wil weten wat er gezegd word, wie het zegt en op welke manier het gezegd word; wat betekent het, wat voor emotie brengt het met zich mee? Maar ook welke geluidseffecten er hoorbaar zijn, hoe ze klinken en waar ze vandaan komen. Het is hierbij erg belangrijk dat de CC synchroon loopt met het geluid.
+
+Marie kijkt films meestal op haar ipad, laptop of via haar telefoon en chromecast op haar televisie. Ze zit dan comfortabel in haar huis zonder al te veel afleiding om haar heen. Het is belangrijk dat Marie niet op te veel dingen moet letten, want het is lastig voor Marie als ze op veel dingen moet letten omdat ze dan de film niet goed kan volgen.
+
+Marie heeft vaak het gevoel dat ze dingen/clues mist wanneer ze films kijkt, dit kan er toe leiden dat Marie steeds meer op kleine details gaat focussen, bijvoorbeeld: ze houdt iedereens mond in de gaten om te zien wie er aan het praten is. Omdat ze zich zo intensief op kleine dingen gaat focussen die al uit zichzelf duidelijk zouden moeten zijn kan ze minder genieten van de film.
