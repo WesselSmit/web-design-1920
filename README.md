@@ -22,6 +22,8 @@ Voor dit vak moesten we een app maken voor iemand met een beperking. Al mijn ond
      * [Beste Testopzet](https://github.com/WesselSmit/web-design-1920/#Wat-was-de-beste-testopzet)
      * [Problemen](https://github.com/WesselSmit/web-design-1920/#Welke-problemen-waren-er)
      * [Volgende Keer](https://github.com/WesselSmit/web-design-1920/#Wat-zou-ik-de-volgende-keer-anders-doen)
+* [Leerdoelen](https://github.com/WesselSmit/web-design-1920/#Leerdoelen)
+* [Conclusie](https://github.com/WesselSmit/web-design-1920/#Conclusie)
 
 
 
