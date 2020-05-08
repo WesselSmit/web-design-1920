@@ -117,3 +117,37 @@ Marie wil films kunnen kijken zonder constant het gevoel te hebben dat ze emotie
 Marie kijkt films meestal op haar ipad, laptop of via haar telefoon en chromecast op haar televisie. Ze zit dan comfortabel in haar huis zonder al te veel afleiding om haar heen. Het is belangrijk dat Marie niet op te veel dingen moet letten, want het is lastig voor Marie als ze op veel dingen moet letten omdat ze dan de film niet goed kan volgen.
 
 Marie heeft vaak het gevoel dat ze dingen/clues mist wanneer ze films kijkt, dit kan er toe leiden dat Marie steeds meer op kleine details gaat focussen, bijvoorbeeld: ze houdt iedereens mond in de gaten om te zien wie er aan het praten is. Omdat ze zich zo intensief op kleine dingen gaat focussen die al uit zichzelf duidelijk zouden moeten zijn kan ze minder genieten van de film.
+
+# Testen
+
+## Week 1
+
+### Testopzet
+
+Deze test was ongeveer 4 uur nadat de opdracht aan ons was uitgelegd, de test was voornamelijk bedoeld om Marie te leren kennen, de kern van het probleem te verkennen en te ontdekken wat de verwachtingen en wensen van Marie waren. Ik had voor dit gesprek met mijn groepje een paar vragen voorbereid om te vragen en zelf had ik een mini prototype in elkaar gezet. Het doel van mijn prototype was meer om mijn concept te pitchen dan om daadwerkelijk te testen.
+
+De 'test' verliep soepel, we hebben als groepje een heleboel vragen kunnen stellen en zijn achter een hoop dingen gekomen die we kunnen meenemen in onze oplossingen. Het was meer een kennismakings gesprek waarbij we een voor een aan de beurt waren en onze cam aanzetten, dan had je de kans om wat vragen te stellen en eventueel je concept te pitchen en je prototype hierbij te laten zien. Het prototype laten zien ging via screenshare (bongo).
+
+### Bevindingen
+
+Marie vond mijn concept interessant en moedigde me aan om het uit te proberen. Het gesprek was erg waardevol; ik had nu een geod idee bij alle problemen met de huidige CC, ook had Marie me aangeraden de film **Scott Pilgrim vs The World** te kijken. Deze film had ze zelf een keer gezien en is haar altijd bij gebleven omdat de CLosed Captions zo uniek waren en er goed te volgen waren voor haar. 
+
+### Resultaat
+
+Ik heb de aangeraden film gekeken en met de problemen van Marie in het hoofd; op deze manier kon ik een heleboel trucjes vinden die SPvsTH heeft gebruikt om de CC beter te maken. Uiteindelijk heb ik een lijsts van [eisen](https://github.com/WesselSmit/web-design-1920/wiki/Eisenlijst) & [CC principes](https://github.com/WesselSmit/web-design-1920/wiki/Goede-CC-Principes) gemaakt. Deze lijst ga ik erbij houden wanneer ik mijn product aan het bedenken/maken ben om als het ware mijn werk te kunnen vergelijken met input van Marie, dit hielp mij met mijn oplossing bijschaven wanneer het wat meer begon af te wijken van wat Marie wilde.
+
+## Week 2
+
+### Testopzet
+
+Voor deze test had ik een prototype, het was tot 30 secondes geanimeerd. Mijn idee was om te kijken of alle vertalingen van audio naar visueel (animatie) duidelijk waren en of Marie het kon volgen. Ook wilde ik weten of de tekst lang genoeg in beeld was om te kunnen lezen.
+
+Mijn idee voorafgaand aan de test was om geen vragen voor te bereiden omdat dit er tot zou kunnen leiden dat mijn gesprek meer een interview werd dan test, uiteindelijk bleek dit een slecht idee. Het testen ging weer via Jitsi, deze keer had elke student een prototype om te laten zien, per persoon legden we uit wat ons prototype was, vervolgens lieten we het zien & achteraf was er tijd om feedback te verzamelen en door te vragen.
+
+
+
+### Bevindingen
+
+Marie vond mijn concept erg fijn en was er enthousiast over, maar ze had eigenlijk niks op te merken; de animaties waren duidelijk en de tekst was lang genoeg in beeld om te kunnen lezen. Dit betekende dat ik niks had om echt over door te vragen en **dus had ik niet heel veel feedback**. Uiteindelijk
+bleek dat de radio animatie helemaal niet goed leesbaar was voor Marie maar dat ze er vanuit ging dat dit de bedoeling was omdat **ze aannam dat slecht leesbare CC slecht hoorbare audio representeerde**! Dit was niet het geval, de radio is prima te verstaan en dus moet de animatie beter leesbaar worden. Maar dit is wel een super fijne en vooral interessante bevinding; dit betekent dat de missende informatie die ik graag wil overbrengen ook zeker ontvangen word bij Marie! Ook gaf dit mij inzicht in hoe Marie dingen interpreteerd die ze ziet. 
+
