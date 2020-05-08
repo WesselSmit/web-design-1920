@@ -14,6 +14,11 @@ Voor dit vak moesten we een app maken voor iemand met een beperking. Al mijn ond
      * [Prioritise Identity](https://github.com/WesselSmit/web-design-1920/#Prioritise-Identity)
      * [Add Nonsense](https://github.com/WesselSmit/web-design-1920/#Add-Nonsense)
 * [User Scenario](https://github.com/WesselSmit/web-design-1920/#User-Scenario)
+* [Testen](https://github.com/WesselSmit/web-design-1920/#Testen)
+     * [Week 1](https://github.com/WesselSmit/web-design-1920/#Week-1)
+     * [Week 2](https://github.com/WesselSmit/web-design-1920/#Week-2)
+     * [Week 3](https://github.com/WesselSmit/web-design-1920/#Week-3)
+
 
 # Marie van Driessche
 
@@ -122,6 +127,8 @@ Marie heeft vaak het gevoel dat ze dingen/clues mist wanneer ze films kijkt, dit
 
 ## Week 1
 
+> Zie het volledige [verslag](https://github.com/WesselSmit/web-design-1920/wiki/Testronde-1) van testronde 1 in mijn wiki.
+
 ### Testopzet
 
 Deze test was ongeveer 4 uur nadat de opdracht aan ons was uitgelegd, de test was voornamelijk bedoeld om Marie te leren kennen, de kern van het probleem te verkennen en te ontdekken wat de verwachtingen en wensen van Marie waren. Ik had voor dit gesprek met mijn groepje een paar vragen voorbereid om te vragen en zelf had ik een mini prototype in elkaar gezet. Het doel van mijn prototype was meer om mijn concept te pitchen dan om daadwerkelijk te testen.
@@ -138,16 +145,54 @@ Ik heb de aangeraden film gekeken en met de problemen van Marie in het hoofd; op
 
 ## Week 2
 
+> Zie het volledige [verslag](https://github.com/WesselSmit/web-design-1920/wiki/Testronde-2) van testronde 2 in mijn wiki.
+
 ### Testopzet
 
 Voor deze test had ik een prototype, het was tot 30 secondes geanimeerd. Mijn idee was om te kijken of alle vertalingen van audio naar visueel (animatie) duidelijk waren en of Marie het kon volgen. Ook wilde ik weten of de tekst lang genoeg in beeld was om te kunnen lezen.
 
 Mijn idee voorafgaand aan de test was om geen vragen voor te bereiden omdat dit er tot zou kunnen leiden dat mijn gesprek meer een interview werd dan test, uiteindelijk bleek dit een slecht idee. Het testen ging weer via Jitsi, deze keer had elke student een prototype om te laten zien, per persoon legden we uit wat ons prototype was, vervolgens lieten we het zien & achteraf was er tijd om feedback te verzamelen en door te vragen.
 
-
+De testopzet werkte prima alleen moest je wel rekening leren houden met iets langere pauzes nemen & niet praten en beeld delen tegelijkertijd. Langere pauzes omdat het gesprek via een middenpersoon gaat (tolk) en gebarentaal net iets langer duurt dan praten, je moet simpelweg langer wachten op een antwoord. Niet praren terwijl je je beeld deelt heeft te maken met dat marie dan naar haar tolk moet kijken en naar het beeld moet kijken om het prototype te zien, ze kan niet naar 2 schermen tegelijkertijd kijken en dus moet je dit gescheiden doen. 1 ding tegelijkertijd.
 
 ### Bevindingen
 
 Marie vond mijn concept erg fijn en was er enthousiast over, maar ze had eigenlijk niks op te merken; de animaties waren duidelijk en de tekst was lang genoeg in beeld om te kunnen lezen. Dit betekende dat ik niks had om echt over door te vragen en **dus had ik niet heel veel feedback**. Uiteindelijk
 bleek dat de radio animatie helemaal niet goed leesbaar was voor Marie maar dat ze er vanuit ging dat dit de bedoeling was omdat **ze aannam dat slecht leesbare CC slecht hoorbare audio representeerde**! Dit was niet het geval, de radio is prima te verstaan en dus moet de animatie beter leesbaar worden. Maar dit is wel een super fijne en vooral interessante bevinding; dit betekent dat de missende informatie die ik graag wil overbrengen ook zeker ontvangen word bij Marie! Ook gaf dit mij inzicht in hoe Marie dingen interpreteerd die ze ziet. 
 
+Alhoewel ik erachter ben gekomen dat mijn concept werkt, dat het leesbaar is en dat Marie de vertalingen/animaties begrijpt ben ik inhoudelijk niet zoveel te weten gekomen als ik had willen, eigenlijk is het enige inhoudelijke dat ik te weten ben gekomen dat de radio animatie duidelijker leesbaar moet. Ik denk dat dit te danken is aan het feit dat ik geen vragen van te voren had voor bereid en dus geen backup vragen had om te stellen. 
+
+Marie vond het erg fijn dat alle CC wat toevoegde, het was voor haar duidelijk wat elke CC representeerde. Ook gaf ze aan dat ze vond dat ik goed had bepaald was CC waardig is (welke geluiden laat je zien op de CC en welke niet), ze vond dat alle CC een betekenis had.
+
+### Iteratie
+
+Ik weet nu voor volgende keer dat ik mijn test moet voorbereiden. De radio animatie moet duidelijker leesbaar. Ik ga verder zoals ik bezig was omdat ik goed opweg ben en het Marie bevalt, verder in de gekozen film-scene komen andere geluiden voor die weer andere vertalingen nodig hebben.
+
+## Week 3 
+
+> Zie het volledige [verslag](https://github.com/WesselSmit/web-design-1920/wiki/Testronde-3) van testronde 3 in mijn wiki.
+
+### Testopzet
+
+Voor deze test had ik een prototype, het was tot 90 secondes geanimeerd. Mijn idee was om te kijken of alle vertalingen van audio naar visueel (animatie) duidelijk waren en of Marie het kon volgen en of de verbeterde radio animatie nu wel goed te lezen was.
+
+Omdat ik voor mijn gevoel niet het maximale had gehaald uit de vorige testsessie, wat te maken had met het feit dat ik geen vragen van te voren had voorbereid had ik deze keer besloten vragen te bedenken ter voorbereiding. Ik had een stuk of 10 vragen bedacht, dit zijn er meer dan ik nodig had maar dat was als maatregel omdat er altijd vragen zijn die voor je beurt worden gesteld door anderen. Verder zou ik om feedback vragen, wat nu hopelijk meer zou opleveren omdat ik een stuk verder was dan de vorige keer.
+
+De test ging ook deze keer weer via Jitsi waar we een voor een ons prototype kort uitlegden ter herinnering, vertellen hoe we de feedback van vorige keer hebben verwerkt, prototype laten zien en vervolgens vragen stellen en feedback verzamelen. Deze keer had ik een stel vragen voorbereid die ik kon afwerken, ik merkte dat dit mij heel erg hielp omdat ik heel gericht op kleine animaties vragen kon stellen en ik had na deze testsessie dan ook een stuk of 6-8 verbeter punten die ik kon verwerken.
+
+### Bevindingen
+
+De meeste verbeterpunten die ik te horen kreeg waren kleine dingen die makkelijk aangepast konden worden maar veel waarde zouden hebben voor Marie omdat het 'dan opeens duidelijk werd'. Mijn belangrijkste bevinding kwam echter niet van een vraag; zo was er een stuk waar de CC over een lange tijdspan van 12 secondes allemaal kleine veranderingen heeft die heel subtiel zijn. Na afloop zei Marie dat ze het leuk zou vinden als die CC ook geanimeerd zou worden. Marie had dus omdat de kwaliteit van screenshare niet 100% top is, soms hapert en omdat de animaties zo subtiel waren niet door dat de CC geanimeerd was. Ik heb aan de hand hiervan besloten om de CC awt uitbundiger te animeren om de verschillen duidelijker te maken.
+
+Ook laat dit een van de zwakke punten van de testopzet zien; screenshare doet de beeld-kwaliteit geen recht en als resultaat heeft Marie niet alles kunnen zien. Dat we het via screenshare doen heeft natuurlijk te maken met de huidige corona-virus pandemie die gaande is, maar als ik in de toekomst weer op afstand moet testen zal ik me verdiepen in andere screenshare alternatieven of zelfs Marie de video-source te sturen. 
+
+Ook vond Marie de radio animatie nog steeds moeilijk te lezen en had ze een hele waardevolle suggestie; Marie vertelde hoe ze gekraak/static signaal associeert met tv-ruis/sneeuwballen (het oude tv zwart-wit storing scherm). Ze suggereerde dat ik dit er ook in verwerk omdat dit voor haar de verbinding nog duidelijker maakt.
+
+### Iteratie
+
+IK heb een aantal iteraties gemaakt aan de hand van de feedback:
+* alleen de [namen] ervoor zetten wanneer het (mogelijk) niet duidelijk is wie er praat
+* radio animatie beter leesbaar gemaakty
+* radio animatie uitgebreid door een tv-ruis/static background erin te verwerken
+* de lange animatie heb ik uitbundiger gemaakt (deze was te subtiel)
+* er stond ergens in de CC "2x" omdat iemand iets een 2e keer zei, maar Marie interpreteerde dit alsof het **nog** 2 extra keren werd gezegd, dit is er dus uitgehaald 
